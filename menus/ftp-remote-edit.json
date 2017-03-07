@@ -1,0 +1,47 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Ftp-Remote-Edit",
+        "submenu": [
+          {
+            "label": "Connect to Ftp Server",
+            "command": "ftp-remote-edit:toggle"
+          },
+          {
+            "label": "Close Ftp Panel",
+            "command": "ftp-remote-edit:closePanel"
+          },
+          {
+            "label": "Edit Ftp-Remote-Edit Configuration",
+            "command": "ftp-remote-edit:editconfiguration"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ftp-remote-edit",
+          "submenu": [
+            {
+              "label": "Connect to Ftp Server",
+              "command": "ftp-remote-edit:toggle"
+            },
+            {
+              "label": "Close Ftp Panel",
+              "command": "ftp-remote-edit:closePanel"
+            },
+            {
+              "label": "Edit Ftp-Remote-Edit Configuration",
+              "command": "ftp-remote-edit:editconfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

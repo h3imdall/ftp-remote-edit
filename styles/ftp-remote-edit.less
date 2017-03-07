@@ -1,0 +1,86 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.ftp-remote-edit {
+}
+
+
+.directory-list-box {
+  overflow: scroll;
+  max-width: 350px;
+}
+
+.rootDirectory{
+  margin-left: 0px;
+  padding-right: 25px;
+}
+
+.list {
+  font-size: @font-size;
+  line-height: 2em;
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 20px;
+  cursor: default;
+}
+
+.list li {
+  padd: 25px;;
+}
+
+.list li > .message:hover {
+  background: @button-background-color-hover;
+}
+
+.directory, .file {
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  left: -23px;
+  top: 0px;
+
+  border: 3px solid @button-background-color-hover;
+  border-top: 3px solid @text-color;
+  border-radius: 50%;
+  width: @component-icon-size;
+  height: @component-icon-size;
+}
+
+.spin{
+     -webkit-transform-origin: 50% 50%;
+     transform-origin:50% 50%;
+     -ms-transform-origin:50% 50%; /* IE 9 */
+     -webkit-animation: spin .9s infinite linear;
+     -moz-animation: spin .9s infinite linear;
+     -o-animation: spin .9s infinite linear;
+     animation: spin .9s infinite linear;
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
