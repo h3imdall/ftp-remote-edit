@@ -10,7 +10,7 @@ import FtpRemoteEdit from '../lib/ftp-remote-edit';
 describe('FtpRemoteEdit', () => {
   let workspaceElement, activationPromise;
 
-  beforeEach(() => {
+  beforeEach(() => { 
     workspaceElement = atom.views.getView(atom.workspace);
     activationPromise = atom.packages.activatePackage('ftp-remote-edit');
   });

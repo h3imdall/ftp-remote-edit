@@ -2,7 +2,7 @@
   "name": "ftp-remote-edit",
   "main": "./lib/ftp-remote-edit",
   "version": "0.2.0",
-  "description": "Edit remotely files on your ftp server. This package need no workspace an all your connection information will be encrypted.",
+  "description": "Edit remotely files on your ftp server. This package need no workspace and all your connection information will be encrypted.",
   "keywords": [
     "ftp",
     "remote",

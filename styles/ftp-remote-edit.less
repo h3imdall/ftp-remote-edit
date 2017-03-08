@@ -27,12 +27,47 @@
   cursor: default;
 }
 
-.list li {
-  padd: 25px;;
+
+.list li > .message:hover, .list li > div:hover {
+  background: @button-background-color-hover;
 }
 
-.list li > .message:hover {
+li > div.selected {
   background: @button-background-color-hover;
+}
+
+li.file > div, li.directory > div {
+  padding: 3px;
+  padding-bottom: 2px;
+}
+
+
+.closeIcon::before {
+  font-family: 'Octicons Regular';
+  content: '\f078';
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.openIcon::before {
+  font-family: 'Octicons Regular';
+  content: '\f0a3';
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
 }
 
 .directory, .file {
