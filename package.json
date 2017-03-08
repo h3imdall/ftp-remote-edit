@@ -1,12 +1,13 @@
 {
   "name": "ftp-remote-edit",
   "main": "./lib/ftp-remote-edit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Edit remotely files on your ftp server.",
   "keywords": [
-    "ftp", "remote", "encrypt" 
+    "ftp",
+    "remote",
+    "encrypt"
   ],
-
   "repository": "https://github.com/h3imdall/ftp-remote-edit.git",
   "license": "MIT",
   "engines": {
