@@ -1,11 +1,35 @@
 {
   "context-menu": {
+
+    
+
+    ".file > .message": [
+      {"label": "Delete", "command": "ftp-remote-edit:delete"}
+    ],
+
+    ".directory-list-box": [
+      {"label": "Show Ftp panel", "command": "ftp-remote-edit:toggle"},
+      {"label": "Close Ftp Panel", "command": "ftp-remote-edit:closePanel"},
+      {"label": "Edit connection configuration", "command": "ftp-remote-edit:editconfiguration"}
+    ],
+
+    "atom-pane": [
+      {
+        "label": "ftp-remote-edit",
+        "submenu": [
+          {"label": "Show Ftp panel", "command": "ftp-remote-edit:toggle"},
+          {"label": "Close Ftp Panel", "command": "ftp-remote-edit:closePanel"},
+          {"label": "Edit connection configuration", "command": "ftp-remote-edit:editconfiguration"}
+        ]
+      }
+    ],
+
     "atom-text-editor": [
       {
         "label": "Ftp-Remote-Edit",
         "submenu": [
           {
-            "label": "Connect to Ftp Server",
+            "label": "Show Ftp Panel",
             "command": "ftp-remote-edit:toggle"
           },
           {
@@ -13,13 +37,14 @@
             "command": "ftp-remote-edit:closePanel"
           },
           {
-            "label": "Edit Ftp-Remote-Edit Configuration",
+            "label": "Edit connection configuration",
             "command": "ftp-remote-edit:editconfiguration"
           }
         ]
       }
     ]
   },
+
   "menu": [
     {
       "label": "Packages",
@@ -28,7 +53,7 @@
           "label": "ftp-remote-edit",
           "submenu": [
             {
-              "label": "Connect to Ftp Server",
+              "label": "Show Ftp Panel",
               "command": "ftp-remote-edit:toggle"
             },
             {
@@ -36,7 +61,7 @@
               "command": "ftp-remote-edit:closePanel"
             },
             {
-              "label": "Edit Ftp-Remote-Edit Configuration",
+              "label": "Edit connection configuration",
               "command": "ftp-remote-edit:editconfiguration"
             }
           ]
@@ -44,4 +69,5 @@
       ]
     }
   ]
+
 }
