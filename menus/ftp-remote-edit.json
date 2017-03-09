@@ -2,8 +2,8 @@
   "context-menu": {
 
     ".list > .directory > div": [
-      {"label": "New Directory", "command": "ftp-remote-edit:new-directory"},
       {"label": "New File", "command": "ftp-remote-edit:new-file"},
+      {"label": "New Directory", "command": "ftp-remote-edit:new-directory"},
       {"label": "Rename", "command": "ftp-remote-edit:rename"},
       {"label": "Delete", "command": "ftp-remote-edit:deleteDirectory"}
     ],
