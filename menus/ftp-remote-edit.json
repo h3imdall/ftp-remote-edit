@@ -1,10 +1,16 @@
 {
   "context-menu": {
 
-    
+    ".list > .directory > div": [
+      {"label": "New Directory", "command": "ftp-remote-edit:new-directory"},
+      {"label": "New File", "command": "ftp-remote-edit:new-file"},
+      {"label": "Rename", "command": "ftp-remote-edit:rename"},
+      {"label": "Delete", "command": "ftp-remote-edit:deleteDirectory"}
+    ],
 
     ".file > .message": [
-      {"label": "Delete", "command": "ftp-remote-edit:delete"}
+      {"label": "Rename", "command": "ftp-remote-edit:rename-file"},
+      {"label": "Delete", "command": "ftp-remote-edit:deleteFile"}
     ],
 
     ".directory-list-box": [
