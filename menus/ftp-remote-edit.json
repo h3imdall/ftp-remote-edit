@@ -4,13 +4,16 @@
     ".list > .directory > div": [
       {"label": "New File", "command": "ftp-remote-edit:new-file"},
       {"label": "New Directory", "command": "ftp-remote-edit:new-directory"},
+      {"type": "separator"},
       {"label": "Rename", "command": "ftp-remote-edit:rename"},
-      {"label": "Delete", "command": "ftp-remote-edit:deleteDirectory"}
+      {"label": "Delete", "command": "ftp-remote-edit:deleteDirectory"},
+      {"type": "separator"}
     ],
 
     ".file > .message": [
       {"label": "Rename", "command": "ftp-remote-edit:rename-file"},
-      {"label": "Delete", "command": "ftp-remote-edit:deleteFile"}
+      {"label": "Delete", "command": "ftp-remote-edit:deleteFile"},
+      {"type": "separator"}
     ],
 
     ".directory-list-box": [
