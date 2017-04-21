@@ -1,0 +1,16 @@
+{
+    "config": {
+        "title": "Encrypted Connection Configuration",
+        "description": "This is the encrypted Connection Information about your Servers. Don\"t edit this!",
+        "type": "string",
+        "default": ""
+    },
+    "password": {
+        "type": "string",
+        "default": ""
+    },
+    "reset": {
+        "type": "boolean",
+        "default": true
+    }
+}

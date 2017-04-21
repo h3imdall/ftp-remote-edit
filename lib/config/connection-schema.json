@@ -1,0 +1,7 @@
+{
+    "host": "",
+    "user": "",
+    "password": "",
+    "port": "21",
+    "sftp": false
+}
