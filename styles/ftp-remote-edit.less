@@ -1,83 +1,168 @@
 // The ui-variables file is provided by base themes provided by Atom.
 //
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
 
-.ftp-remote-edit {
-}
+.ftp-remote-edit-view {
+  &.ftp-remote-edit-resizer {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    cursor: default;
+    -webkit-user-select: none;
+    min-width: 100px;
+    width: 200px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    // use these classes to re-order
+    // using a value in-between is fine too, e.g. order: -3;
+    & > .order--start {
+      order: -10;
+    }
 
+    & > .order--center {
+      order: 0;
+    }
 
-.directory-list-box {
-  overflow: scroll;
-  max-width: 350px;
-}
+    & > .order--end {
+      order: 10;
+    }
 
-.rootDirectory{
-  margin-left: 0px;
-}
+    .ftp-remote-edit-resize-handle {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 10px;
+      cursor: col-resize;
+      z-index: 3;
+    }
 
-.list {
-  font-size: @font-size;
-  line-height: 2em;
-  list-style-type: none;
-  padding: 0px;
-  margin-left: 20px;
-  cursor: default;
-}
+    &[data-show-on-right-side='true'] {
+      .tree-view-resize-handle {
+        left: -5px;
+      }
+    }
 
+    &[data-show-on-right-side='false'] {
+      .tree-view-resize-handle {
+        right: -5px;
+      }
+    }
+  }
 
-.list li > .message:hover, .list li > div:hover {
-  background: @button-background-color-hover;
-}
+  .project-root-header {
+    -webkit-user-drag: element;
+  }
 
-li > div.selected, .drag {
-  background: @button-background-color-hover;
-}
+  .ftp-remote-edit-scroller {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    overflow: auto;
+  }
 
-li.file > div, li.directory > div {
-  padding: 3px;
-  padding-bottom: 2px;
-}
+  .ftp-remote-edit-list {
+    flex-grow: 1;
+    flex-shrink: 0;
+    /*
+     * Force a new stacking context to prevent a large, duplicate paint layer from
+     * being created for tree-view's scrolling contents that can make the cost of
+     * layer tree updates scale at 3x the size of the layer rather than the
+     * optimal 1x.
+     *
+     * On high resolution displays, Chromium handles layers for scrolling content
+     * differently and inadvertently creates a duplicate paint layer the size of
+     * .tree-view-scroller because descendants of the scroller overlap the
+     * auto-created layer.
+     */
+    isolation: isolate;
+    min-width: -webkit-min-content;
+    padding-left: @component-icon-padding;
+    padding-right: @component-padding;
+    position: relative;
 
+    .project-root.project-root:before {
+      height: 3em;
+      border-top: 1px solid transparent;
+      background-clip: padding-box;
+    }
 
-.closeIcon::before {
-  font-family: 'Octicons Regular';
-  content: '\f078';
-  width: 12px;
-  height: 12px;
-  margin-right: 5px;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 12px;
-  text-decoration: none;
-}
+    .project-root.project-root > .header .name {
+        line-height: 3em;
+    }
 
-.openIcon::before {
-  font-family: 'Octicons Regular';
-  content: '\f0a3';
-  width: 12px;
-  height: 12px;
-  margin-right: 5px;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 12px;
-  text-decoration: none;
-}
+    .header {
+      position: relative;
+    }
 
-.clear {
-  clear: both;
-}
+    .list-tree {
+      position: static;
+    }
 
-.directory, .file {
-  position: relative;
+    .entry {
+      // This fixes #110, see that issue for more details
+      &::before {
+        content: '';
+        position: absolute;
+      }
+    }
+    /* Drag and Drop */
+    .placeholder {
+      position: absolute;
+      left: @component-icon-padding;
+      padding: 0;
+      z-index: 999;
+      display: inline-block;
+      width: calc(~"100% -" @component-icon-padding);
+      background: @background-color-info;
+      list-style: none;
+      pointer-events: none;
+      // bar
+      &:before {
+        content: "";
+        position: absolute;
+        height: 2px;
+        margin: -1px;
+        padding: 0;
+        width: inherit;
+        background: inherit;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        margin-top: -2px;
+        margin-left: -1px;
+        width: 4px;
+        height: 4px;
+        background: @background-color-info;
+        border-radius: 4px;
+        border: 1px solid transparent;
+      }
+      // ensure that placeholder doesn't disappear above the top of the view
+      &:first-child {
+        margin-top: 1px;
+      }
+    }
+  }
+
+  .platform-win32 {
+    .tree-view-resizer {
+      .tree-view-resize-handle {
+        cursor: ew-resize;
+      }
+    }
+  }
 }
 
 .loader {
   position: absolute;
   left: -23px;
-  top: 0px;
-
+  top: 0;
   border: 3px solid @button-background-color-hover;
   border-top: 3px solid @text-color;
   border-radius: 50%;
@@ -85,19 +170,21 @@ li.file > div, li.directory > div {
   height: @component-icon-size;
 }
 
-.spin{
-     -webkit-transform-origin: 50% 50%;
-     transform-origin:50% 50%;
-     -ms-transform-origin:50% 50%; /* IE 9 */
-     -webkit-animation: spin .9s infinite linear;
-     -moz-animation: spin .9s infinite linear;
-     -o-animation: spin .9s infinite linear;
-     animation: spin .9s infinite linear;
+.spin {
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  /* IE 9 */
+  -webkit-animation: spin 0.9s infinite linear;
+  -moz-animation: spin 0.9s infinite linear;
+  -o-animation: spin 0.9s infinite linear;
+  animation: spin 0.9s infinite linear;
 }
 @-moz-keyframes spin {
   from {
     -moz-transform: rotate(0deg);
   }
+
   to {
     -moz-transform: rotate(360deg);
   }
@@ -106,6 +193,7 @@ li.file > div, li.directory > div {
   from {
     -webkit-transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
   }
@@ -114,6 +202,7 @@ li.file > div, li.directory > div {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
