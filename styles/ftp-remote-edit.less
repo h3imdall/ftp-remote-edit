@@ -91,7 +91,11 @@
     }
 
     .project-root.project-root > .header .name {
-        line-height: 3em;
+      line-height: 3em;
+    }
+
+    .project-root.project-root:first-child {
+      padding-top: 0.5em;
     }
 
     .header {
@@ -147,6 +151,25 @@
       &:first-child {
         margin-top: 1px;
       }
+    }
+
+    &::before {
+      content: "";
+      position: fixed;
+      pointer-events: none;
+      z-index: 1;
+      margin-top: 0.5em;
+      margin-left: -5px;
+      height: 3em;
+      width: 2px;
+      background: #568af2;
+      opacity: 0;
+      transition: opacity 0.16s;
+    }
+
+    &:focus::before {
+      opacity: 1;
+      transition-duration: .32s;
     }
   }
 
