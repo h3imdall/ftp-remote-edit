@@ -112,7 +112,12 @@
         content: '';
         position: absolute;
       }
+
+      &.selected::before {
+          background: #2b2b2b;
+      }
     }
+
     /* Drag and Drop */
     .placeholder {
       position: absolute;
@@ -124,6 +129,7 @@
       background: @background-color-info;
       list-style: none;
       pointer-events: none;
+
       // bar
       &:before {
         content: "";
