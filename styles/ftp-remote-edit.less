@@ -4,6 +4,23 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+atom-text-editor.disabled {
+  background-color:#373737 !important;
+
+  .editor-contents--private {
+    cursor: default;
+  }
+
+  &.is-focused {
+    border-color: #181818  !important;
+    box-shadow: inherit  !important;
+
+    .cursor{
+      opacity: 0 !important;
+    }
+  }
+}
+
 .ftp-remote-edit-view {
   &.ftp-remote-edit-resizer {
     position: relative;
