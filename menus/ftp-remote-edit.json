@@ -1,82 +1,86 @@
 {
-  "context-menu": {
-
-    ".list > .directory > div": [
-      {"label": "New File", "command": "ftp-remote-edit:new-file"},
-      {"label": "New Directory", "command": "ftp-remote-edit:new-directory"},
-      {"type": "separator"},
-      {"label": "Rename", "command": "ftp-remote-edit:rename"},
-      {"label": "Delete", "command": "ftp-remote-edit:deleteDirectory"},
-      {"type": "separator"}
-    ],
-
-    ".file > .message": [
-      {"label": "Rename", "command": "ftp-remote-edit:rename-file"},
-      {"label": "Delete", "command": "ftp-remote-edit:deleteFile"},
-      {"type": "separator"}
-    ],
-
-    ".directory-list-box": [
-      {"label": "Show Ftp panel", "command": "ftp-remote-edit:toggle"},
-      {"label": "Close Ftp Panel", "command": "ftp-remote-edit:closePanel"},
-      {"label": "Edit connection configuration", "command": "ftp-remote-edit:editconfiguration"}
-    ],
-
-    "atom-pane": [
-      {
-        "label": "ftp-remote-edit",
-        "submenu": [
-          {"label": "Show Ftp panel", "command": "ftp-remote-edit:toggle"},
-          {"label": "Close Ftp Panel", "command": "ftp-remote-edit:closePanel"},
-          {"label": "Edit connection configuration", "command": "ftp-remote-edit:editconfiguration"}
-        ]
-      }
-    ],
-
-    "atom-text-editor": [
-      {
-        "label": "Ftp-Remote-Edit",
-        "submenu": [
-          {
-            "label": "Show Ftp Panel",
-            "command": "ftp-remote-edit:toggle"
-          },
-          {
-            "label": "Close Ftp Panel",
-            "command": "ftp-remote-edit:closePanel"
-          },
-          {
-            "label": "Edit connection configuration",
-            "command": "ftp-remote-edit:editconfiguration"
-          }
-        ]
-      }
-    ]
-  },
-
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "Ftp-Remote-Edit",
+      "submenu": [{
+          "label": "Toggle",
+          "command": "ftp-remote-edit:toggle"
+        },
         {
-          "label": "ftp-remote-edit",
-          "submenu": [
-            {
-              "label": "Show Ftp Panel",
-              "command": "ftp-remote-edit:toggle"
-            },
-            {
-              "label": "Close Ftp Panel",
-              "command": "ftp-remote-edit:closePanel"
-            },
-            {
-              "label": "Edit connection configuration",
-              "command": "ftp-remote-edit:editconfiguration"
-            }
-          ]
+          "label": "Edit Servers",
+          "command": "ftp-remote-edit:edit-servers"
         }
       ]
-    }
-  ]
+    }]
+  }],
 
+  "context-menu": {
+    ".ftp-remote-edit-list.full-menu > .server > .entries": [{
+        "label": "New File",
+        "command": "ftp-remote-edit:new-file"
+      },
+      {
+        "label": "New Folder",
+        "command": "ftp-remote-edit:new-directory"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Rename",
+        "command": "ftp-remote-edit:rename"
+      },
+      {
+        "label": "Delete",
+        "command": "ftp-remote-edit:delete"
+      },
+      {
+        "type": "separator"
+      }
+    ],
+
+    ".ftp-remote-edit-list.full-menu > .server": [{
+        "label": "New File",
+        "command": "ftp-remote-edit:new-file"
+      },
+      {
+        "label": "New Folder",
+        "command": "ftp-remote-edit:new-directory"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Edit Server",
+        "command": "ftp-remote-edit:edit-servers"
+      },
+      {
+        "type": "separator"
+      }
+    ],
+
+    ".ftp-remote-edit-view": [{
+        "label": "Toggle",
+        "command": "ftp-remote-edit:toggle"
+      },
+      {
+        "label": "Edit Servers",
+        "command": "ftp-remote-edit:edit-servers"
+      }
+    ],
+
+    "atom-text-editor": [{
+      "label": "Ftp-Remote-Edit",
+      "submenu": [{
+          "label": "Toggle",
+          "command": "ftp-remote-edit:toggle"
+        },
+        {
+          "label": "Edit Servers",
+          "command": "ftp-remote-edit:edit-servers"
+        }
+      ]
+    }]
+  }
 }
