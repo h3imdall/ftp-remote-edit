@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "ftp": "^0.3.10",
-    "ssh2-sftp-client": "^1.0.5"
+    "ssh2-sftp-client": "^1.0.5",
+    "atom-space-pen-views": "^2.2.0"
   }
 }
