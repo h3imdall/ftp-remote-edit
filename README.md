@@ -6,7 +6,7 @@ Just connect and edit the files. On save the file is written to the server.
 
 With the right click context menu you can add, delete and rename your files and directories.
 
-![A screenshot of your package](screenshot.png)
+![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
 
 ## Whats new in 0.9.0
 
