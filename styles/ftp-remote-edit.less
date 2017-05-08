@@ -27,7 +27,7 @@ atom-text-editor.disabled {
       font-size: 2em;
       color: rgba(168, 168, 168, 0.2);
   }
-  
+
   &.ftp-remote-edit-resizer {
     position: relative;
     height: 100%;
@@ -211,6 +211,20 @@ atom-text-editor.disabled {
   }
 }
 
+.ftp-remote-edit.settings-view {
+  .control-group{
+    .controls.host {
+      float: left;
+      width: 90%;
+    }
+    .controls.port {
+      width: 10%;
+      float: right;
+      padding-left: 1%;
+    }
+  }
+}
+
 .loader {
   position: absolute;
   left: -23px;
@@ -223,7 +237,7 @@ atom-text-editor.disabled {
 }
 
 .spin::before {
-  
+
   -webkit-animation: spin 0.9s infinite linear;
   -moz-animation: spin 0.9s infinite linear;
   -o-animation: spin 0.9s infinite linear;

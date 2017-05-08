@@ -1,8 +1,9 @@
 {
   "name": "new server",
   "host": "127.0.0.1",
+  "port": "21",
   "user": "",
   "password": "",
-  "port": "21",
-  "sftp": false
+  "sftp": false,
+  "remote": "/"
 }
