@@ -1,3 +1,6 @@
+## 0.10.0 - Release
+- New edit input: You can define a initial directory
+
 ## 0.9.0 - Release
 - New action "ftp-remote-edit: find" added to search in tree for a folder
 
@@ -11,8 +14,6 @@
 
 ## 0.7.0 - Release
 - fix erros
-
-## 0.7.0 - Release
 - refactoring
 
 ## 0.6.0 - Release

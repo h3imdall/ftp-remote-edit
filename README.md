@@ -8,21 +8,9 @@ With the right click context menu you can add, delete and rename your files and 
 
 ![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
 
-## Whats new in 0.9.0
+## 0.10.0 - Release
 
-- Refactoring of the complete source code
-- Added UI like TreeView
-- Added Keyboard Navigation
-- Added function to remember the password during the session
-- Added promises for ftp and sftp classes
-- Extends settings (sortFoldersBeforeFiles, showOnRightSide)
-- New action "ftp-remote-edit: find" added to search in tree for a folder
-
-Solved Issues:
-
-- Uncaught ReferenceError: path is not defined #3
-- Loading spinner keeps rotating forever #4
-- [Feature request] Disable password request when showing the ftp panel #5
+- New edit input: You can define a initial directory
 
 ## Getting started
 - Toggle the view with "ftp-remote-edit:toggle"
