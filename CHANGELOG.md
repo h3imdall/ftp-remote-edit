@@ -1,3 +1,7 @@
+## 0.11.0 - Private key on ssh
+
+- You can connect using a private key on ssh  
+
 ## 0.10.0 - Release
 - New edit input: You can define a initial directory
 

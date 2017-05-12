@@ -8,9 +8,9 @@ With the right click context menu you can add, delete and rename your files and 
 
 ![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
 
-## 0.10.0 - Release
+## 0.11.0 - Private key on ssh
 
-- New edit input: You can define a initial directory
+- You can connect using a private key on ssh  
 
 ## Getting started
 - Toggle the view with "ftp-remote-edit:toggle"
