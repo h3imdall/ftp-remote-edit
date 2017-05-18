@@ -1,3 +1,7 @@
+## 0.11.1
+
+Fixed styles for light theme
+
 ## 0.11.0 - Private key on ssh
 
 - You can connect using a private key on ssh  
