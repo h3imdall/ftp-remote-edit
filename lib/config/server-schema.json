@@ -1,7 +1,7 @@
 {
   "name": "new server",
-  "host": "127.0.0.1",
-  "port": "21",
+  "host": "",
+  "port": "",
   "user": "",
   "password": "",
   "sftp": false,
