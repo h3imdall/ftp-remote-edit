@@ -8,9 +8,13 @@ With the right click context menu you can add, delete and rename your files and 
 
 ![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
 
-## 0.11.1
-
-Fixed styles for light theme
+## Whats new in 0.11
+- Added setting to define path for ssh/sftp private keyfile
+- Fixed styles for light theme (issue-17)
+- The path in the dialogs is now corrected so that it corresponds to the schema. Spaces within the path caused errors.
+- Fixed error while creating a folder (issue-20)
+- Improved speed by keeping the connections open
+- Added dialog to change the password. To open run command "ftp-remote-edit:change-password". Empty password caused error and will no longer be accepted.
 
 ## Getting started
 - Toggle the view with "ftp-remote-edit:toggle"
