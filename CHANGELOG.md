@@ -1,3 +1,6 @@
+## 0.11.5 - Release
+- Checks connection status everytime the "connect" function is called. Fixes issue on sftp "keep connection alive" error. (issue-28)
+
 ## 0.11.4 - Release
 - Added dialog to change the password. To open run command "ftp-remote-edit:change-password". Empty password caused error and will no longer be accepted.
 
