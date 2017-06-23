@@ -8,13 +8,9 @@ With the right click context menu you can add, delete and rename your files and 
 
 ![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
 
-## Whats new in 0.11
-- Added setting to define path for ssh/sftp private keyfile
-- Fixed styles for light theme (issue-17)
-- The path in the dialogs is now corrected so that it corresponds to the schema. Spaces within the path caused errors.
-- Fixed error while creating a folder (issue-20)
-- Improved speed by keeping the connections open
-- Added dialog to change the password. To open run command "ftp-remote-edit:change-password". Empty password caused error and will no longer be accepted.
+## Whats new in 0.11.7
+- Added hotkey for toggling left ctrl-space
+- Mask input for password
 
 ## Getting started
 - Toggle the view with "ftp-remote-edit:toggle"
@@ -27,3 +23,6 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - **Bug hunting!** [Report](https://github.com/h3imdall/ftp-remote-edit/issues) them!
 - **Feature request?** [Please let me know](https://github.com/h3imdall/ftp-remote-edit/issues) by filling an issue!
 - **Star this project** on [Atom](https://atom.io/packages/ftp-remote-edit), [Github](https://github.com/h3imdall/ftp-remote-edit)
+
+## Special Thanks 
+ - [@miles-collier](https://github.com/miles-collier) [Issue-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) added hotkey for toggling  

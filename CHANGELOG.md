@@ -1,3 +1,7 @@
+## 0.11.7
+- Added hotkey for toggling left ctrl-space
+- Mask input for password
+
 ## 0.11.5 - Release
 - Checks connection status everytime the "connect" function is called. Fixes issue on sftp "keep connection alive" error. (issue-28)
 
