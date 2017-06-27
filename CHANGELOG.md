@@ -1,6 +1,14 @@
+## 0.11.8
+- Fixed error while creating a folder (issue-32)
+- Fixed error while renaming a file/folder (issue-42)
+
 ## 0.11.7
-- Added hotkey for toggling left ctrl-space
-- Mask input for password
+- Added hotkey for toggling "ctrl+space" (issue-37)
+- Hide password in server settings (issue-36)
+
+## 0.11.6
+- Added Option to enable debug mode
+- Fixed error reported in "Unsyncing after idle" (issue-28)
 
 ## 0.11.5 - Release
 - Checks connection status everytime the "connect" function is called. Fixes issue on sftp "keep connection alive" error. (issue-28)
