@@ -1,3 +1,7 @@
+## 0.11.9
+- Fixed error for "Image view doesn't work" (issue-58)
+- Fixed error for "Undo just opened file" (issue-62)
+
 ## 0.11.8
 - Fixed error while creating a folder (issue-32)
 - Fixed error while renaming a file/folder (issue-42)

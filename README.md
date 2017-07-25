@@ -22,6 +22,8 @@ With the right click context menu you can add, delete and rename your files and 
 - Hide password in server settings (issue-36)
 - Fixed error while creating a folder (issue-32)
 - Fixed error while renaming a file/folder (issue-42)
+- Fixed error for "Image view doesn't work" (issue-58)
+- Fixed error for "Undo just opened file" (issue-62)
 
 ## Getting started
 - Toggle the view with "ftp-remote-edit:toggle" or use hotkey "ctrl+space"
