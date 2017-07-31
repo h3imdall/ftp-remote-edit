@@ -1,7 +1,7 @@
 ## 0.11.9
-- Fixed error "Image view doesn't work" (issue-58)
-- Fixed error "Undo just opened file" (issue-62)
-- Fixed error "Uncaught SyntaxError: Unexpected token ? in JSON at position 0" (issue-44)
+- Fixed error reported in "Image view doesn't work" (issue-58)
+- Fixed error reported in "Undo just opened file" (issue-62)
+- Fixed error reported in "Uncaught SyntaxError: Unexpected token ? in JSON at position 0" (issue-44)
 
 ## 0.11.8
 - Fixed error while creating a folder (issue-32)
