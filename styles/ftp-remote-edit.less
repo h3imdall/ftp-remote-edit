@@ -72,10 +72,6 @@ atom-text-editor.disabled {
     }
   }
 
-  .project-root-header {
-    -webkit-user-drag: element;
-  }
-
   .ftp-remote-edit-scroller {
     display: flex;
     flex-direction: column;
@@ -167,6 +163,17 @@ atom-text-editor.disabled {
 
     .header {
       position: relative;
+    }
+    .server {
+      -webkit-user-drag: none;
+    }
+
+    .directory {
+      -webkit-user-drag: element;
+    }
+
+    .file {
+      -webkit-user-drag: element;
     }
 
     .list-tree {
