@@ -17,6 +17,12 @@
     "type": "boolean",
     "default": true
   },
+  "showInDock": {
+    "title": "Open In Atom Dock",
+    "description": "Open the ftp tree view as tab in atom dock instead of panel.",
+    "type": "boolean",
+    "default": true
+  },
   "sortFoldersBeforeFiles": {
     "title": "Sort Folders Before Files",
     "description": "When listing directory items, list subdirectories before listing files.",
