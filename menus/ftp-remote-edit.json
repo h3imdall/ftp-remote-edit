@@ -36,6 +36,18 @@
         "command": "ftp-remote-edit:delete"
       },
       {
+        "label": "Copy",
+        "command": "ftp-remote-edit:copy"
+      },
+      {
+        "label": "Cut",
+        "command": "ftp-remote-edit:cut"
+      },
+      {
+        "label": "Paste",
+        "command": "ftp-remote-edit:paste"
+      },
+      {
         "type": "separator"
       },
       {
