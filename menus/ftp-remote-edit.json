@@ -28,16 +28,23 @@
         "type": "separator"
       },
       {
-        "label": "Find",
-        "command": "ftp-remote-edit:find"
-      },
-      {
         "label": "Rename",
         "command": "ftp-remote-edit:rename"
       },
       {
         "label": "Delete",
         "command": "ftp-remote-edit:delete"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Find Remote Path",
+        "command": "ftp-remote-edit:find"
+      },
+      {
+        "label": "Copy Remote Path",
+        "command": "ftp-remote-edit:copy-remote-path"
       },
       {
         "type": "separator"
@@ -56,7 +63,7 @@
         "type": "separator"
       },
       {
-        "label": "Find",
+        "label": "Find Remote Path",
         "command": "ftp-remote-edit:find"
       },
       {
