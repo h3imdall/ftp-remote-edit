@@ -60,10 +60,6 @@
         "command": "ftp-remote-edit:find"
       },
       {
-        "label": "Edit Server",
-        "command": "ftp-remote-edit:edit-servers"
-      },
-      {
         "type": "separator"
       }
     ],
