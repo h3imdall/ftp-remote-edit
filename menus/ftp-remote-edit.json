@@ -75,6 +75,13 @@
         "type": "separator"
       },
       {
+        "label": "Paste",
+        "command": "ftp-remote-edit:paste"
+      },
+      {
+        "type": "separator"
+      },
+      {
         "label": "Find Remote Path",
         "command": "ftp-remote-edit:find"
       },
