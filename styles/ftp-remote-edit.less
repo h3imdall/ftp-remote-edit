@@ -5,17 +5,17 @@
 @import "ui-variables";
 
 atom-text-editor.disabled {
-  background-color:#373737 !important;
+  background-color: #373737 !important;
 
   .editor-contents--private {
     cursor: default;
   }
 
   &.is-focused {
-    border-color: #181818  !important;
-    box-shadow: inherit  !important;
+    border-color: #181818 !important;
+    box-shadow: inherit !important;
 
-    .cursor{
+    .cursor {
       opacity: 0 !important;
     }
   }
@@ -23,9 +23,9 @@ atom-text-editor.disabled {
 
 .ftp-remote-edit-view {
   background-tip ul.background-message {
-      font-weight: 500;
-      font-size: 2em;
-      color: rgba(168, 168, 168, 0.2);
+    font-weight: 500;
+    font-size: 2em;
+    color: rgba(168, 168, 168, 0.2);
   }
 
   &.ftp-remote-edit-resizer {
@@ -164,11 +164,12 @@ atom-text-editor.disabled {
     .header {
       position: relative;
     }
+
     .server {
       -webkit-user-drag: none;
 
       > .project-root-header {
-          -webkit-user-drag: none !important;
+        -webkit-user-drag: none !important;
       }
     }
 
@@ -191,7 +192,6 @@ atom-text-editor.disabled {
         position: absolute;
       }
     }
-
     /* Drag and Drop */
     .placeholder {
       position: absolute;
@@ -203,7 +203,6 @@ atom-text-editor.disabled {
       background: @background-color-info;
       list-style: none;
       pointer-events: none;
-
       // bar
       &:before {
         content: "";
@@ -249,7 +248,7 @@ atom-text-editor.disabled {
 
     &:focus::before {
       opacity: 1;
-      transition-duration: .32s;
+      transition-duration: 0.32s;
     }
   }
 
@@ -263,16 +262,46 @@ atom-text-editor.disabled {
 }
 
 .ftp-remote-edit.settings-view {
-  .control-group{
+  .control-group {
     .controls.host {
       float: left;
       width: 90%;
     }
+
     .controls.port {
       width: 10%;
       float: right;
       padding-left: 1%;
     }
+  }
+}
+
+.ftp-remote-edit-protocol-table {
+  width: 100%;
+  color: @text-color;
+  font-size: @font-size;
+  border: 0;
+
+  thead {
+    background-color: @base-background-color;
+  }
+
+  tbody {
+    background-color: @inset-panel-background-color;
+  }
+
+  td,
+  th {
+    padding: 3px 10px;
+  }
+
+  td {
+    min-width: 100px;
+  }
+
+  th {
+    border-right: 1px solid @base-border-color;
+    border-bottom: 1px solid @base-border-color;
   }
 }
 
@@ -288,7 +317,6 @@ atom-text-editor.disabled {
 }
 
 .spin::before {
-
   -webkit-animation: spin 0.9s infinite linear;
   -moz-animation: spin 0.9s infinite linear;
   -o-animation: spin 0.9s infinite linear;
