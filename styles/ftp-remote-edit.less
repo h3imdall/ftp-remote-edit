@@ -276,32 +276,36 @@ atom-text-editor.disabled {
   }
 }
 
-.ftp-remote-edit-protocol-table {
-  width: 100%;
-  color: @text-color;
-  font-size: @font-size;
-  border: 0;
+.ftp-remote-edit-protocol {
+  overflow: auto;
 
-  thead {
-    background-color: @base-background-color;
-  }
+  .ftp-remote-edit-protocol-table {
+    width: 100%;
+    color: @text-color;
+    font-size: @font-size;
+    border: 0;
 
-  tbody {
-    background-color: @inset-panel-background-color;
-  }
+    thead {
+      background-color: @base-background-color;
+    }
 
-  td,
-  th {
-    padding: 3px 10px;
-  }
+    tbody {
+      background-color: @inset-panel-background-color;
+    }
 
-  td {
-    min-width: 100px;
-  }
+    td,
+    th {
+      padding: 3px 10px;
+    }
 
-  th {
-    border-right: 1px solid @base-border-color;
-    border-bottom: 1px solid @base-border-color;
+    td {
+      // min-width: 100px;
+    }
+
+    th {
+      border-right: 1px solid @base-border-color;
+      border-bottom: 1px solid @base-border-color;
+    }
   }
 }
 
