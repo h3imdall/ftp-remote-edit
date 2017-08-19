@@ -1,37 +1,86 @@
 {
   "config": {
-    "title": "Encrypted Connection Configuration",
+    "title": "Encrypted Connection",
     "description": "This are the encrypted connection information about your servers. Don't edit this!",
     "type": "string",
-    "default": ""
+    "default": "",
+    "order": 1
   },
   "password": {
     "title": "Encrypted Password",
     "description": "This is the encrypted password. Don't edit this!",
     "type": "string",
-    "default": ""
+    "default": "",
+    "order": 2
   },
-  "showOnRightSide": {
-    "title": "Show On Right Side",
-    "description": "Show the ftp tree view on the right side of the editor instead of the left.",
-    "type": "boolean",
-    "default": true
+  "tree": {
+    "type": "object",
+    "title": "Tree View",
+    "properties": {
+      "showInDock": {
+        "title": "Open In Atom Dock",
+        "description": "Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0",
+        "type": "boolean",
+        "default": true,
+        "order": 1
+      },
+      "showOnRightSide": {
+        "title": "Show On Right Side",
+        "description": "Show the view on the right side of the editor instead of the left.",
+        "type": "boolean",
+        "default": true,
+        "order": 2
+      },
+      "hideIgnoredNames": {
+        "title": "Hide Ignored Files",
+        "description": "Don't show items matched by the `Ignored Names` core config setting.",
+        "type": "boolean",
+        "default": false,
+        "order": 3
+      },
+      "showHiddenFiles": {
+        "title": "Show Hidden Files",
+        "description": "Show hidden files in view",
+        "type": "boolean",
+        "default": false,
+        "order": 4
+      },
+      "sortFoldersBeforeFiles": {
+        "title": "Sort Folders Before Files",
+        "description": "When listing directory items, list subdirectories before listing files.",
+        "type": "boolean",
+        "default": true,
+        "order": 6
+      }
+    },
+    "order": 3
   },
-  "showInDock": {
-    "title": "Open In Atom Dock",
-    "description": "Open the ftp tree view as tab in atom dock instead of panel.",
-    "type": "boolean",
-    "default": true
+  "notifications": {
+    "type": "object",
+    "title": "Notification",
+    "properties": {
+      "ShowNotificationOnUpload": {
+        "title": "Successful Upload",
+        "description": "Show Notification on successful Upload.",
+        "type": "boolean",
+        "default": true,
+        "order": 1
+      }
+    },
+    "order": 4
   },
-  "hideIgnoredNames": {
-    "type": "boolean",
-    "default": false,
-    "description": "Don't show items matched by the `Ignored Names` core config setting."
-  },
-  "sortFoldersBeforeFiles": {
-    "title": "Sort Folders Before Files",
-    "description": "When listing directory items, list subdirectories before listing files.",
-    "type": "boolean",
-    "default": true
+  "dev": {
+    "type": "object",
+    "title": "Development",
+    "properties": {
+      "debug": {
+        "title": "Debug Mode",
+        "description": "Add communication text in console.",
+        "type": "boolean",
+        "default": false,
+        "order": 1
+      }
+    },
+    "order": 5
   }
 }
