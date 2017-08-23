@@ -19,6 +19,7 @@
     "ssh2": "^0.4.13",
     "atom-space-pen-views": "^2.2.0",
     "md5": "^2.2.1",
-    "minimatch": "~0.3.0"
+    "minimatch": "~0.3.0",
+    "fs-plus": "^3.0.0"
   }
 }
