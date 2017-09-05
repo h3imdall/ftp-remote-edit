@@ -42,7 +42,7 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - **Bug hunting!** [Report](https://github.com/h3imdall/ftp-remote-edit/issues) them!
 - **Feature request?** [Please let me know](https://github.com/h3imdall/ftp-remote-edit/issues) by filling an issue!
 - **Star this project** on [Atom](https://atom.io/packages/ftp-remote-edit), [Github](https://github.com/h3imdall/ftp-remote-edit)
-- **Donate for this project ** - <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KAMKHBBJH7KB2" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
+- **Donate for this project** - [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KAMKHBBJH7KB2)
 
 ## Special Thanks
  - [@miles-collier](https://github.com/miles-collier) [Issue-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) added hotkey for toggling  
