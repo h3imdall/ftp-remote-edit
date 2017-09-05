@@ -6,31 +6,35 @@ Just connect and edit the files. On save the file is written to the server.
 
 With the right click context menu you can add, delete and rename your files and directories.
 
-![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
+![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/development/screenshot.png)
 
-## Whats new in 0.11
-- Added setting to define path for ssh/sftp private keyfile
-- Fixed styles for light theme (issue-17)
-- The path in the dialogs is now corrected so that it corresponds to the schema. Spaces within the path caused errors.
-- Fixed error while creating a folder (issue-20)
-- Improved speed by keeping the connections open
-- Added dialog to change the password. To open run command "ftp-remote-edit:change-password". Empty password caused error and will no longer be accepted.
-- Checks connection status everytime the "connect" function is called. Fixes issue on sftp "keep connection alive" error. (issue-28)
-- Added Option to enable debug mode
-- Fixed error reported in "Unsyncing after idle" (issue-28)
-- Added hotkey for toggling "ctrl+space" (issue-37)
-- Hide password in server settings (issue-36)
-- Fixed error while creating a folder (issue-32)
-- Fixed error while renaming a file/folder (issue-42)
-- Fixed error reported in "Image view doesn't work" (issue-58)
-- Fixed error reported in "Undo just opened file" (issue-62)
-- Fixed error reported in "Uncaught SyntaxError: Unexpected token ? in JSON at position 0" (issue-44)
-
+## Whats new in 0.12
+- Added Option "Open in Atom Dock" - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
+- Added FTP Message Log - Shows sent/received FTP commands in log
+- Changed refreshing behavior of the TreeView
+- Feature request: Drag-and-Drop (issue-25)
+- Feature request: Copy / Cut / Paste files (issue-24)
+- Feature request: Rename copied file if exists to prevent collision of names (issue-61)
+- Feature request: Statusbar for upload/download (issue-69)
+- Feature request: Option "Disable Notification on save/upload" (issue-55)
+- Feature request: Option "Hide Ignored Names" (issue-78)
+- Feature request: Option "Opening hidden files" (e.g. htaccess) (issue-66)
+- Feature request: Preview opened file in pending pane to have the same behavior than in Atom (issue-83)
+- Fixed error reported in "Refreshing directory when moving a file using Rename" (issue-51)
 
 ## Getting started
 - Toggle the view with "ftp-remote-edit:toggle" or use hotkey "ctrl+space"
 - Enter the master password. If not allready set, enter the firsttime. All information about your server settings will be encrypted with this password.
-- Right click and select "Edit server" to open the Configuration View. Here you can add, edit and delete your ftp servers settings.
+- Right click and select "Edit server" to open the Configuration View. Here you can add, edit and delete your (s)ftp servers settings.
+
+## Package preferences
+- `Open In Atom Dock` - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
+- `Show On Right Side` - Show the view on the right side of the editor instead of the left.
+- `Hide Ignored Files` - Don't show items matched by the `Ignored Names` core config setting.
+- `Show Hidden Files` - Force FTP Server to show hidden files (e.g. htaccess)
+- `Sort Folders Before Files` - When listing directory items, list subdirectories before listing files.
+- `Successful Upload Notification` - Show Notification on successful Upload
+- `Debug Mode` - Output debug messages to the console.
 
 ## I'd like to support this project
 Help us bring this project to the moon! Atom's rocket needs to get somewhere, right?
@@ -38,6 +42,7 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - **Bug hunting!** [Report](https://github.com/h3imdall/ftp-remote-edit/issues) them!
 - **Feature request?** [Please let me know](https://github.com/h3imdall/ftp-remote-edit/issues) by filling an issue!
 - **Star this project** on [Atom](https://atom.io/packages/ftp-remote-edit), [Github](https://github.com/h3imdall/ftp-remote-edit)
+- **Donate this project** - <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KAMKHBBJH7KB2" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
 
 ## Special Thanks
  - [@miles-collier](https://github.com/miles-collier) [Issue-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) added hotkey for toggling  

@@ -40,7 +40,7 @@
       },
       "showHiddenFiles": {
         "title": "Show Hidden Files",
-        "description": "Show hidden files in view",
+        "description": "Force FTP Server to show hidden files (e.g. htaccess)",
         "type": "boolean",
         "default": false,
         "order": 4
@@ -60,7 +60,7 @@
     "title": "Notification",
     "properties": {
       "ShowNotificationOnUpload": {
-        "title": "Successful Upload",
+        "title": "Successful Upload Notification",
         "description": "Show Notification on successful Upload.",
         "type": "boolean",
         "default": true,
@@ -75,7 +75,7 @@
     "properties": {
       "debug": {
         "title": "Debug Mode",
-        "description": "Add communication text in console.",
+        "description": "Output debug messages to the console.",
         "type": "boolean",
         "default": false,
         "order": 1
