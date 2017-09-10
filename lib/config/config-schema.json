@@ -31,19 +31,26 @@
         "default": true,
         "order": 2
       },
+      "allowPendingPaneItems": {
+        "title": "Allow Pending Pane Items",
+        "description": "Allow items to be previewed without adding them to a pane permanently, such as when single clicking files in the tree view.",
+        "type": "boolean",
+        "default": false,
+        "order": 3
+      },
       "hideIgnoredNames": {
         "title": "Hide Ignored Files",
         "description": "Don't show items matched by the `Ignored Names` core config setting.",
         "type": "boolean",
         "default": false,
-        "order": 3
+        "order": 4
       },
       "showHiddenFiles": {
         "title": "Show Hidden Files",
         "description": "Force FTP Server to show hidden files (e.g. htaccess)",
         "type": "boolean",
         "default": false,
-        "order": 4
+        "order": 5
       },
       "sortFoldersBeforeFiles": {
         "title": "Sort Folders Before Files",
@@ -59,7 +66,7 @@
     "type": "object",
     "title": "Notification",
     "properties": {
-      "ShowNotificationOnUpload": {
+      "showNotificationOnUpload": {
         "title": "Successful Upload Notification",
         "description": "Show Notification on successful Upload.",
         "type": "boolean",

@@ -19,7 +19,7 @@ With the right click context menu you can add, delete and rename your files and 
 - Feature request: Option "Disable Notification on save/upload" (issue-55)
 - Feature request: Option "Hide Ignored Names" (issue-78)
 - Feature request: Option "Opening hidden files" (e.g. htaccess) (issue-66)
-- Feature request: Preview opened file in pending pane to have the same behavior than in Atom (issue-83)
+- Feature request: Option "Preview opened file in pending pane" to have the same behavior than in Atom (issue-83)
 - Fixed error reported in "Refreshing directory when moving a file using Rename" (issue-51)
 
 ## Getting started
@@ -30,6 +30,7 @@ With the right click context menu you can add, delete and rename your files and 
 ## Package preferences
 - `Open In Atom Dock` - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
 - `Show On Right Side` - Show the view on the right side of the editor instead of the left.
+- `Allow Pending Pane Items` - Allow items to be previewed without adding them to a pane permanently.
 - `Hide Ignored Files` - Don't show items matched by the `Ignored Names` core config setting.
 - `Show Hidden Files` - Force FTP Server to show hidden files (e.g. htaccess)
 - `Sort Folders Before Files` - When listing directory items, list subdirectories before listing files.
