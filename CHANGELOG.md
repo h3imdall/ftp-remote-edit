@@ -1,3 +1,6 @@
+## 0.12.1 - Release
+- Fix error reported in "Failed to load the ftp-remote-edit package" (issue-97)
+
 ## 0.12.0 - Release
 - Added Option "Open in Atom Dock" - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
 - Added FTP Message Log - Shows sent/received FTP commands in log
