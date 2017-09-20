@@ -1,3 +1,9 @@
+## 0.12.2 - Release
+- Fix error reported in "Uncaught Error: No transfer timeout (180 seconds): closing control connection" (issue-105)
+- Fix error reported in "Uncaught Error: Timed out while waiting for handshake" (issue-102)
+- Fix error reported in "Uncaught Error: All configured authentication methods failed" (issue-100)
+- Fix deprecated message reported in "Object.add is deprecated" (issue-98)
+
 ## 0.12.1 - Release
 - Fix error reported in "Failed to load the ftp-remote-edit package" (issue-97)
 
