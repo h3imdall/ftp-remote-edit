@@ -15,7 +15,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@icetee/ftp": "^0.3.14",
+    "@icetee/ftp": "0.3.11",
     "ssh2": "^0.4.13",
     "atom-space-pen-views": "^2.2.0",
     "md5": "^2.2.1",
