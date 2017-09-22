@@ -1,3 +1,7 @@
+## 0.12.3 - Release
+- Fix error reported in "Uncaught ReferenceError: reject is not defined" (issue-107)
+- Fix error reported in "Unknown command" (issue-101)
+
 ## 0.12.2 - Release
 - Fix error reported in "Uncaught Error: No transfer timeout (180 seconds): closing control connection" (issue-105)
 - Fix error reported in "Uncaught Error: Timed out while waiting for handshake" (issue-102)
