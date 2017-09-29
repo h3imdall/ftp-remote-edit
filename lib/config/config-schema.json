@@ -60,8 +60,8 @@
         "order": 6
       },
       "sortServerProfilesByName": {
-        "title": "List Servers By Name",
-        "description": "When listing servers in the FTP-Remote-Edit view, list servers by name rather than by host.",
+        "title": "Sort Servers By Name",
+        "description": "When listing servers items, list servers by name rather than by host.",
         "type": "boolean",
         "default": true,
         "order": 7

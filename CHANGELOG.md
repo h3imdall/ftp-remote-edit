@@ -1,3 +1,6 @@
+## 0.12.4 - Release
+- Feature request: Option "Sort Servers By Name" (issue-106)
+
 ## 0.12.3 - Release
 - Fix error reported in "Uncaught ReferenceError: reject is not defined" (issue-107)
 - Fix error reported in "Unknown command" (issue-101)
