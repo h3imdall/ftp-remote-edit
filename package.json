@@ -1,5 +1,5 @@
 {
-  "name": "ftp-remote-edit",
+  "name": "ftp-develop",
   "main": "./lib/ftp-remote-edit",
   "version": "0.12.3",
   "description": "Edit remotely files on your ftp/sftp(ssh) server without a project. All your connection information will be encrypted.",
@@ -16,10 +16,13 @@
   },
   "dependencies": {
     "@icetee/ftp": "0.3.11",
-    "ssh2": "^0.4.13",
+    "atom-select-list": "^0.3.0",
     "atom-space-pen-views": "^2.2.0",
+    "fs-plus": "^3.0.0",
+    "fuzzaldrin": "^2.1.0",
+    "fuzzaldrin-plus": "^0.5.0",
     "md5": "^2.2.1",
     "minimatch": "~0.3.0",
-    "fs-plus": "^3.0.0"
+    "ssh2": "^0.4.13"
   }
 }
