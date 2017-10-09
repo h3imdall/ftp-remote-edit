@@ -20,6 +20,8 @@
     "atom-space-pen-views": "^2.2.0",
     "md5": "^2.2.1",
     "minimatch": "~0.3.0",
-    "fs-plus": "^3.0.0"
+    "fs-plus": "^3.0.0",
+    "season": "^6.0.1",
+    "key-path-helpers": "^0.4.0"
   }
 }
