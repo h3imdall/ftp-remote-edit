@@ -1,5 +1,6 @@
 ## 0.12.4 - Release
 - Feature request: Option "Sort Servers By Name" (issue-106)
+- Fix error reported in "Uncaught TypeError: Cannot read property 'collapse' of undefined..." (issue-119)
 
 ## 0.12.3 - Release
 - Fix error reported in "Uncaught ReferenceError: reject is not defined" (issue-107)
