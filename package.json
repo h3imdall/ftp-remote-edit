@@ -16,12 +16,13 @@
   },
   "dependencies": {
     "@icetee/ftp": "0.3.11",
-    "ssh2": "^0.4.13",
     "atom-space-pen-views": "^2.2.0",
+    "fs-plus": "^3.0.0",
+    "key-path-helpers": "^0.4.0",
     "md5": "^2.2.1",
     "minimatch": "~0.3.0",
-    "fs-plus": "^3.0.0",
     "season": "^6.0.1",
-    "key-path-helpers": "^0.4.0"
+    "short-hash": "^1.0.0",
+    "ssh2": "^0.4.13"
   }
 }
