@@ -1,5 +1,5 @@
 {
-  "name": "ftp-develop",
+  "name": "ftp-remote-edit",
   "main": "./lib/ftp-remote-edit",
   "version": "0.12.3",
   "description": "Edit remotely files on your ftp/sftp(ssh) server without a project. All your connection information will be encrypted.",
