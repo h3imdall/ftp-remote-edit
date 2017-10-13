@@ -1,3 +1,6 @@
+## 0.12.5 - Release
+- Fixed error reported in "Uncaught ReferenceError: fs is not defined" (issue-122)
+
 ## 0.12.4 - Release
 - Feature request: Option "Sort Servers By Name" (issue-106)
 - Fix error reported in "Uncaught TypeError: Cannot read property 'collapse' of undefined..." (issue-119)
