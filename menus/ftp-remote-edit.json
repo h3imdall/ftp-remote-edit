@@ -2,7 +2,7 @@
   "menu": [{
     "label": "Packages",
     "submenu": [{
-      "label": "Ftp-Remote-Edit",
+      "label": "Ftp-Remote",
       "submenu": [{
           "label": "Toggle",
           "command": "ftp-remote-edit:toggle"
@@ -37,6 +37,10 @@
       {
         "label": "Find Remote Path",
         "command": "ftp-remote-edit:find"
+      },
+      {
+        "label": "Remote Path Finder",
+        "command": "ftp-remote-edit:finder"
       },
       {
         "type": "separator"
