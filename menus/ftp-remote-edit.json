@@ -39,7 +39,7 @@
         "command": "ftp-remote-edit:find"
       },
       {
-        "label": "Remote Path Finder",
+        "label": "Search in Directory",
         "command": "ftp-remote-edit:finder"
       },
       {
@@ -80,6 +80,10 @@
       {
         "label": "Copy Remote Path",
         "command": "ftp-remote-edit:copy-remote-path"
+      },
+      {
+        "label": "Search in Directory",
+        "command": "ftp-remote-edit:finder"
       },
       {
         "type": "separator"
@@ -127,6 +131,10 @@
       {
         "label": "Copy Remote Path",
         "command": "ftp-remote-edit:copy-remote-path"
+      },
+      {
+        "label": "Search in Directory",
+        "command": "ftp-remote-edit:finder"
       },
       {
         "type": "separator"
