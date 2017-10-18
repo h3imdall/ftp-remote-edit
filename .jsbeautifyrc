@@ -14,7 +14,7 @@
     "preserve_newlines": true,
     "max_preserve_newlines": 2,
     "jslint_happy": false,
-    "break_chained_methods": true,
+    "break_chained_methods": false,
     "end_with_newline": true,
     "eval_code": false,
     "keep_array_indentation": false,
