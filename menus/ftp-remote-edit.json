@@ -39,7 +39,7 @@
         "command": "ftp-remote-edit:find"
       },
       {
-        "label": "Search in Directory",
+        "label": "Find File",
         "command": "ftp-remote-edit:finder"
       },
       {
@@ -82,7 +82,7 @@
         "command": "ftp-remote-edit:copy-remote-path"
       },
       {
-        "label": "Search in Directory",
+        "label": "Find File",
         "command": "ftp-remote-edit:finder"
       },
       {
@@ -133,7 +133,7 @@
         "command": "ftp-remote-edit:copy-remote-path"
       },
       {
-        "label": "Search in Directory",
+        "label": "Find File",
         "command": "ftp-remote-edit:finder"
       },
       {
