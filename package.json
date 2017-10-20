@@ -20,7 +20,7 @@
     "fs-plus": "^3.0.0",
     "key-path-helpers": "^0.4.0",
     "md5": "^2.2.1",
-    "minimatch": "~0.3.0",
+    "minimatch": "^3.0.2",
     "season": "^6.0.1",
     "short-hash": "^1.0.0",
     "ssh2": "^0.4.13"
