@@ -1,6 +1,6 @@
 'atom-text-editor':
   'ctrl-space': 'ftp-remote-edit:toggle',
-  'ctrl-alt-P': 'ftp-remote-edit:finder'
+  'ctrl-alt-p': 'ftp-remote-edit:finder'
 'atom-workspace':
   'ctrl-space': 'ftp-remote-edit:toggle',
-  'ctrl-alt-P': 'ftp-remote-edit:finder'
+  'ctrl-alt-p': 'ftp-remote-edit:finder'
