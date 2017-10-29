@@ -1,3 +1,6 @@
+## 0.12.6 - Release
+- Fixed error reported in "Path to private keyfile not editable" (issue-48)
+
 ## 0.12.5 - Release
 - Fixed error reported in "Uncaught ReferenceError: fs is not defined" (issue-122)
 
