@@ -1,5 +1,6 @@
 ## 0.12.7 - Release
 - Fixed error reported in "Path to private keyfile not editable" (issue-48)
+- Fixed error reported in "Cannot connect to servers after resuming from suspend" (issue-76)
 
 ## 0.12.6 - Release
 - Update dependencies (minimatch)
