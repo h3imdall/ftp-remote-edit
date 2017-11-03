@@ -69,6 +69,23 @@
     },
     "order": 3
   },
+  "finder": {
+    "type": "object",
+    "title": "Tree View Finder",
+    "properties": {
+      "ignoredNames": {
+        "title": "Ignored Names",
+        "description": "List of [glob patterns](https://en.wikipedia.org/wiki/Glob_%28programming%29). Files and directories matching these patterns and the `Ignored Names` core config setting will be ignored during indexing.",
+        "type": "array",
+        "default": [".git", "vendor", "node_modules"],
+        "items": {
+          "type": "string"
+        },
+        "order": 1
+      }
+    },
+    "order": 4
+  },
   "notifications": {
     "type": "object",
     "title": "Notification",
@@ -81,7 +98,7 @@
         "order": 1
       }
     },
-    "order": 4
+    "order": 5
   },
   "dev": {
     "type": "object",
@@ -95,6 +112,6 @@
         "order": 1
       }
     },
-    "order": 5
+    "order": 6
   }
 }
