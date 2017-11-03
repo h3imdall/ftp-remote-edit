@@ -1,3 +1,12 @@
+## 0.12.7 - Release
+- Fixed error reported in "Path to private keyfile not editable" (issue-48)
+- Fixed error reported in "Cannot connect to servers after resuming from suspend" (issue-76)
+
+## 0.12.6 - Release
+- Update dependencies (minimatch)
+- Fixed error reported in "Adding New Server" (issue-131)
+- Fixed error reported in "Cannot Delete Server" (issue-129)
+
 ## 0.12.5 - Release
 - Fixed error reported in "Uncaught ReferenceError: fs is not defined" (issue-122)
 
