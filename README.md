@@ -19,14 +19,25 @@ With the right click context menu you can add, delete and rename your files and 
 - Feature request: Option "Hide Ignored Names" (issue-78)
 - Feature request: Option "Opening hidden files" (e.g. htaccess) (issue-66)
 - Feature request: Option "Preview opened file in pending pane" to have the same behavior than in Atom (issue-83)
-- Feature request: Option "Sort Servers By Name" (issue-106)
-- Fixed error reported in "Refreshing directory when moving a file using Rename" (issue-51)
+- Feature request: "Sort Servers By Name" (issue-106)
+- Feature request: "Fuzzy finder for remote files" (issue-109)
 
 ## Getting started
 
-- Toggle the view with "ftp-remote-edit:toggle" or use hotkey "ctrl+space"
+- Toggle the view with "ftp-remote-edit:toggle" or use keybinding `ctrl-space`
 - Enter the master password. If not allready set, enter the firsttime. All information about your server settings will be encrypted with this password.
-- Right click and select "Edit server" to open the Configuration View. Here you can add, edit and delete your (s)ftp servers settings.
+- Right click and select "Edit Server" to open the Configuration View. Here you can add, edit and delete your (s)ftp server settings.
+
+## Keybindings
+
+- Toggle the view with `ctrl-space`
+- Toggle the fuzzy finder with `ctrl-alt-p` (item must be selected in the tree)
+
+## Helpfull commands
+- Toggle the view with "ftp-remote-edit:toggle"
+- Change Master Password with "ftp-remote-edit:change-password"
+- Toggle the fuzzy finder with "ftp-remote-edit:finder"
+- Reindex the fuzzy finder cache with "ftp-remote-edit:finder-reindex-cache"
 
 ## Package preferences
 
@@ -37,6 +48,7 @@ With the right click context menu you can add, delete and rename your files and 
 - `Show Hidden Files` - Force FTP Server to show hidden files (e.g. htaccess)
 - `Sort Folders Before Files` - When listing directory items, list subdirectories before listing files.
 - `Sort Servers By Name` - When listing servers items, list servers by name rather than by host.
+- `Ignored Names` - Files and directories matching these patterns and the `Ignored Names` core config setting will be ignored during indexing.
 - `Successful Upload Notification` - Show Notification on successful Upload
 - `Debug Mode` - Output debug messages to the console.
 
@@ -54,3 +66,5 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 
 - [@miles-collier](https://github.com/miles-collier) [Issue-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Hotkey for toggling
 - [@dustinparker](https://github.com/dustinparker) [Issue-106](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
+- [@Me1onRind](https://github.com/Me1onRind)
+[Issue-109](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files

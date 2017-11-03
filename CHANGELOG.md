@@ -1,4 +1,5 @@
 ## 0.12.7 - Release
+- Feature request: "Fuzzy finder for remote files" (issue-109)
 - Fixed error reported in "Path to private keyfile not editable" (issue-48)
 - Fixed error reported in "Cannot connect to servers after resuming from suspend" (issue-76)
 
@@ -11,7 +12,7 @@
 - Fixed error reported in "Uncaught ReferenceError: fs is not defined" (issue-122)
 
 ## 0.12.4 - Release
-- Feature request: Option "Sort Servers By Name" (issue-106)
+- Feature request: "Sort Servers By Name" (issue-106)
 - Fix error reported in "Uncaught TypeError: Cannot read property 'collapse' of undefined..." (issue-119)
 - Fix error reported in "Can't open multiple files with same path" (issue-114)
 
