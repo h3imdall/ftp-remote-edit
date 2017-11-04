@@ -12,7 +12,7 @@
 - Fixed error reported in "Uncaught ReferenceError: fs is not defined" (issue-122)
 
 ## 0.12.4 - Release
-- Feature request: "Sort Servers By Name" (issue-106)
+- Feature request: Option "Sort Servers By Name" (issue-106)
 - Fix error reported in "Uncaught TypeError: Cannot read property 'collapse' of undefined..." (issue-119)
 - Fix error reported in "Can't open multiple files with same path" (issue-114)
 

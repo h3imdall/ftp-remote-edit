@@ -1,8 +1,6 @@
 # Ftp-Remote-Edit
 
-Edit files on your server without creating a project. You do not need to download the whole project files from the server. Just connect and edit the files. On save the file is written to the server.
-
-With the right click context menu you can add, delete and rename your files and directories.
+Edit files directly on your server without having to create a local project. You don't have to download the files of the complete project from the server. Simply connect and edit your remote files. When saving the files, they are automatically updated on the server.
 
 ![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
 
@@ -10,7 +8,7 @@ With the right click context menu you can add, delete and rename your files and 
 
 - Added Option "Open in Atom Dock" - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
 - Added FTP Message Log - Shows sent/received FTP commands in log
-- Changed refreshing behavior of the TreeView
+- Changed refreshing behavior of the tree view
 - Feature request: Drag-and-Drop (issue-25)
 - Feature request: Copy / Cut / Paste files (issue-24)
 - Feature request: Rename copied file if exists to prevent collision of names (issue-61)
@@ -18,39 +16,40 @@ With the right click context menu you can add, delete and rename your files and 
 - Feature request: Option "Disable Notification on save/upload" (issue-55)
 - Feature request: Option "Hide Ignored Names" (issue-78)
 - Feature request: Option "Opening hidden files" (e.g. htaccess) (issue-66)
-- Feature request: Option "Preview opened file in pending pane" to have the same behavior than in Atom (issue-83)
-- Feature request: "Sort Servers By Name" (issue-106)
+- Feature request: Option "Preview opened file in pending pane" to have the same behavior than in atom (issue-83)
+- Feature request: Option "Sort Servers By Name" (issue-106)
 - Feature request: "Fuzzy finder for remote files" (issue-109)
 
 ## Getting started
 
 - Toggle the view with "ftp-remote-edit:toggle" or use keybinding `ctrl-space`
 - Enter the master password. If not allready set, enter the firsttime. All information about your server settings will be encrypted with this password.
-- Right click and select "Edit Server" to open the Configuration View. Here you can add, edit and delete your (s)ftp server settings.
+- Right click and select "Edit Servers" to open the configuration view. Here you can add, edit and delete your (s)ftp server settings.
 
 ## Keybindings
 
 - Toggle the view with `ctrl-space`
-- Toggle the fuzzy finder with `ctrl-alt-p` (item must be selected in the tree)
+- Toggle the fuzzy finder with `ctrl-alt-p` (item must be selected in the tree view)
 
 ## Helpfull commands
 - Toggle the view with "ftp-remote-edit:toggle"
-- Change Master Password with "ftp-remote-edit:change-password"
+- Change master password with "ftp-remote-edit:change-password"
 - Toggle the fuzzy finder with "ftp-remote-edit:finder"
 - Reindex the fuzzy finder cache with "ftp-remote-edit:finder-reindex-cache"
 
 ## Package preferences
 
-- `Open In Atom Dock` - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
-- `Show On Right Side` - Show the view on the right side of the editor instead of the left.
-- `Allow Pending Pane Items` - Allow items to be previewed without adding them to a pane permanently.
-- `Hide Ignored Files` - Don't show items matched by the `Ignored Names` core config setting.
-- `Show Hidden Files` - Force FTP Server to show hidden files (e.g. htaccess)
-- `Sort Folders Before Files` - When listing directory items, list subdirectories before listing files.
-- `Sort Servers By Name` - When listing servers items, list servers by name rather than by host.
-- `Ignored Names` - Files and directories matching these patterns and the `Ignored Names` core config setting will be ignored during indexing.
-- `Successful Upload Notification` - Show Notification on successful Upload
-- `Debug Mode` - Output debug messages to the console.
+- `Tree View` - `Open In Atom Dock` - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
+- `Tree View` - `Show On Right Side` - Show the view on the right side of the editor instead of the left.
+- `Tree View` - `Allow Pending Pane Items` - Allow items to be previewed without adding them to a pane permanently.
+- `Tree View` - `Hide Ignored Files` - Don't show items matched by the `Ignored Names` core config setting.
+- `Tree View` - `Show Hidden Files` - Force FTP Server to show hidden files (e.g. htaccess)
+- `Tree View` - `Sort Folders Before Files` - When listing directory items, list subdirectories before listing files.
+- `Tree View` - `Sort Servers By Name` - When listing servers items, list servers by name rather than by host.
+- `Tree View Finder` - `Key For Search` - Specifies the key at which the search is to be used.
+- `Tree View Finder` - `Ignored Names` - Files and directories matching these patterns and the `Ignored Names` core config setting will be ignored during indexing.
+- `Notification` - `Successful Upload Notification` - Show notification on successful Upload
+- `Development` - `Debug Mode` - Output debug messages to the console.
 
 ## I'd like to support this project
 
@@ -64,7 +63,7 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 
 ## Special Thanks
 
-- [@miles-collier](https://github.com/miles-collier) [Issue-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Hotkey for toggling
+- [@miles-collier](https://github.com/miles-collier) [Issue-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Keybinding for toggling
 - [@dustinparker](https://github.com/dustinparker) [Issue-106](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
 - [@Me1onRind](https://github.com/Me1onRind)
 [Issue-109](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files

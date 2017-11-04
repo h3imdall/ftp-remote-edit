@@ -73,6 +73,23 @@
     "type": "object",
     "title": "Tree View Finder",
     "properties": {
+      "filterKeyForItem": {
+        "title": "Key For Search",
+        "description": "Specifies the key at which the search is to be used.",
+        "type": "string",
+        "default": "Filename",
+        "enum": [
+          {
+            "value": "Filename",
+            "description": "Filename"
+          },
+          {
+            "value": "Path",
+            "description": "Path + Filename"
+          }
+        ],
+        "order": 1
+      },
       "ignoredNames": {
         "title": "Ignored Names",
         "description": "List of [glob patterns](https://en.wikipedia.org/wiki/Glob_%28programming%29). Files and directories matching these patterns and the `Ignored Names` core config setting will be ignored during indexing.",
@@ -81,7 +98,7 @@
         "items": {
           "type": "string"
         },
-        "order": 1
+        "order": 2
       }
     },
     "order": 4
@@ -91,7 +108,7 @@
     "title": "Notification",
     "properties": {
       "showNotificationOnUpload": {
-        "title": "Successful Upload Notification",
+        "title": "Successful Upload",
         "description": "Show Notification on successful Upload.",
         "type": "boolean",
         "default": true,
