@@ -24,5 +24,12 @@
     "season": "^6.0.1",
     "short-hash": "^1.0.0",
     "ssh2": "^0.4.13"
+  },
+  "consumedServices": {
+    "file-icons.element-icons": {
+      "versions": {
+        "1.0.0": "consumeElementIcons"
+      }
+    }
   }
 }
