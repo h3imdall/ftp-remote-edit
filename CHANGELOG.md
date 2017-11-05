@@ -1,4 +1,5 @@
 ## 0.12.7 - Release
+- Feature request: "Support for file-icons package" (issue-125)
 - Feature request: "Fuzzy finder for remote files" (issue-109)
 - Fixed error reported in "Path to private keyfile not editable" (issue-48)
 - Fixed error reported in "Cannot connect to servers after resuming from suspend" (issue-76)

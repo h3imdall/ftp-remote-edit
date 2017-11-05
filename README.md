@@ -19,6 +19,7 @@ Edit files directly on your server without having to create a local project. You
 - Feature request: Option "Preview opened file in pending pane" to have the same behavior than in atom (issue-83)
 - Feature request: Option "Sort Servers By Name" (issue-106)
 - Feature request: "Fuzzy finder for remote files" (issue-109)
+- Feature request: "Support for file-icons package" (issue-125)
 
 ## Getting started
 
