@@ -3,6 +3,7 @@
 - Feature request: "Fuzzy finder for remote files" (issue-109)
 - Fixed error reported in "Path to private keyfile not editable" (issue-48)
 - Fixed error reported in "Cannot connect to servers after resuming from suspend" (issue-76)
+- Fixed error reported in "Not able to get directory listing for regular FTP to an IBM i (or AS/400 or iSeries)" (issue-123)
 
 ## 0.12.6 - Release
 - Update dependencies (minimatch)
