@@ -1,3 +1,6 @@
+## 0.12.8 - Release
+- Fixed error reported in "Disable/Hide FTP Message Log in config" (issue-117)
+
 ## 0.12.7 - Release
 - Feature request: "Support for file-icons package" (issue-125)
 - Feature request: "Fuzzy finder for remote files" (issue-109)
