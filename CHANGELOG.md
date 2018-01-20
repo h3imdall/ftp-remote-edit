@@ -1,5 +1,6 @@
 ## 0.12.8 - Release
 - Fixed error reported in "Disable/Hide FTP Message Log in config" (issue-117)
+- Fixed error reported in "Encoding when saving file to remote always utf-8" (issue-155)
 
 ## 0.12.7 - Release
 - Feature request: "Support for file-icons package" (issue-125)

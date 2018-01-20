@@ -20,6 +20,8 @@ Edit files directly on your server without having to create a local project. You
 - Feature request: Option "Sort Servers By Name" (issue-106)
 - Feature request: "Fuzzy finder for remote files" (issue-109)
 - Feature request: "Support for file-icons package" (issue-125)
+- Fixed error reported in "Disable/Hide FTP Message Log in config" (issue-117)
+- Fixed error reported in "Encoding when saving file to remote always utf-8" (issue-155)
 
 ## Getting started
 
