@@ -1,6 +1,7 @@
 # Ftp-Remote-Edit
 
-Edit files directly on your server without having to create a local project. You don't have to download the files of the complete project from the server. Simply connect and edit your remote files. When saving the files, they are automatically updated on the server.
+Editing files on your server without the need for creating a local project. It is not necassary to download all files of your project. 
+Simply connect and edit your remote files. The files will be automatically updated to the server on saving.
 
 ![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
 
