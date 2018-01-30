@@ -1,3 +1,9 @@
+## 0.12.10 - Release
+- Fixed error reported in "Object.add is deprecated" (issue-161)
+
+## 0.12.9 - Release
+- Prepare 0.12.9 release
+
 ## 0.12.8 - Release
 - Fixed error reported in "Disable/Hide FTP Message Log in config" (issue-117)
 - Fixed error reported in "Encoding when saving file to remote always utf-8" (issue-155)
