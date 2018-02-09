@@ -1,6 +1,6 @@
 # Ftp-Remote-Edit
 
-Editing files on your server without the need for creating a local project. It is not necassary to download all files of your project. 
+Editing files on your server without the need for creating a local project. It is not necassary to download all files of your project.
 Simply connect and edit your remote files. The files will be automatically updated to the server on saving.
 
 ![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
@@ -21,8 +21,7 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Feature request: Option "Sort Servers By Name" (issue-106)
 - Feature request: "Fuzzy finder for remote files" (issue-109)
 - Feature request: "Support for file-icons package" (issue-125)
-- Fixed error reported in "Disable/Hide FTP Message Log in config" (issue-117)
-- Fixed error reported in "Encoding when saving file to remote always utf-8" (issue-155)
+- Feature request: Auto Reveal Active file in Tree (issue-158)
 
 ## Getting started
 

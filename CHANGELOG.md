@@ -1,5 +1,6 @@
 ## 0.12.10 - Release
 - Fixed error reported in "Object.add is deprecated" (issue-161)
+- Feature request: "Auto Reveal Active file in Tree" #158
 
 ## 0.12.9 - Release
 - Prepare 0.12.9 release

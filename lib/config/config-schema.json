@@ -65,6 +65,13 @@
         "type": "boolean",
         "default": true,
         "order": 7
+      },
+      "autoRevealActiveFile": {
+        "title": "Auto Reveal Active File",
+        "description": "Auto reveal the current active file on the tree view.",
+        "type": "boolean",
+        "default": true,
+        "order": 8
       }
     },
     "order": 3
