@@ -34,5 +34,8 @@
         "1.0.0": "consumeElementIcons"
       }
     }
+  },
+  "uriHandler" : {
+      "method" : "handleURI"
   }
 }
