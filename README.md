@@ -55,6 +55,7 @@ Add temporary server for ftp/sftp by using uri. It is possible to use it with/wi
 - `Tree View` - `Show Hidden Files` - Force FTP Server to show hidden files (e.g. htaccess)
 - `Tree View` - `Sort Folders Before Files` - When listing directory items, list subdirectories before listing files.
 - `Tree View` - `Sort Servers By Name` - When listing servers items, list servers by name rather than by host.
+- `Tree View` - `Auto Reveal Active File` - Auto reveal the current active file on the tree view.
 - `Tree View Finder` - `Key For Search` - Specifies the key at which the search is to be used.
 - `Tree View Finder` - `Ignored Names` - Files and directories matching these patterns and the `Ignored Names` core config setting will be ignored during indexing.
 - `Notification` - `Successful Upload Notification` - Show notification on successful Upload
