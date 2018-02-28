@@ -21,7 +21,8 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Feature request: Option "Sort Servers By Name" (issue-106)
 - Feature request: "Fuzzy finder for remote files" (issue-109)
 - Feature request: "Support for file-icons package" (issue-125)
-- Feature request: Auto Reveal Active file in Tree (issue-158)
+- Feature request: "Auto Reveal Active file in Tree" (issue-158)
+- Feature request: "Open from command line" (issue-165)
 
 ## Getting started
 
@@ -39,6 +40,11 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Change master password with "ftp-remote-edit:change-password"
 - Toggle the fuzzy finder with "ftp-remote-edit:finder"
 - Reindex the fuzzy finder cache with "ftp-remote-edit:finder-reindex-cache"
+
+## URI handler
+Add temporary server for ftp/sftp by using uri. It is possible to use it with/without username, password and port.
+- atom://ftp-remote-edit/sftp://username:password@host:port
+- atom://ftp-remote-edit/ftp://username:password@host:port
 
 ## Package preferences
 
@@ -70,3 +76,5 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - [@dustinparker](https://github.com/dustinparker) [Issue-106](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
 - [@Me1onRind](https://github.com/Me1onRind)
 [Issue-109](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
+- [@wacki4](https://github.com/wacki4)
+[Issue-165](https://github.com/h3imdall/ftp-remote-edit/pull/169) Open from command line
