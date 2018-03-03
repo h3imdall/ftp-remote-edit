@@ -1,3 +1,6 @@
+## 0.12.11 - Release
+- Fixed error reported in "Unable to open after upgrade to 0.12.10" (issue-172)
+
 ## 0.12.10 - Release
 - Fixed error reported in "Object.add is deprecated" (issue-161)
 - Feature request: "Auto Reveal Active file in Tree" (issue-158)

@@ -36,6 +36,7 @@
     }
   },
   "uriHandler": {
-    "method": "handleURI"
+    "method": "handleURI",
+    "deferActivation": false
   }
 }
