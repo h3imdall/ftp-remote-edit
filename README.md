@@ -79,3 +79,5 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 [Issue-109](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
 - [@wacki4](https://github.com/wacki4)
 [Issue-165](https://github.com/h3imdall/ftp-remote-edit/pull/169) Open from command line
+- [@FabrizioCaldarelli ](https://github.com/FabrizioCaldarelli)
+[Issue-173](https://github.com/h3imdall/ftp-remote-edit/pull/178),  [Issue-44](https://github.com/h3imdall/ftp-remote-edit/pull/174) Help fix some errors

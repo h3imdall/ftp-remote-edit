@@ -1,3 +1,8 @@
+## 0.12.12 - Release
+- Feature request: "Option for double-click on treeview" (issue-171)
+- Fixed error reported in "Uncaught TypeError: Cannot read property 'replace' of undefined!" (issue-173)
+- Fixed error reported in "Uncaught SyntaxError: Unexpected token  in JSON at position 0" (issue-44)
+
 ## 0.12.11 - Release
 - Fixed error reported in "Unable to open after upgrade to 0.12.10" (issue-172)
 
