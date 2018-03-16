@@ -1,5 +1,6 @@
 ## 0.12.12 - Release
 - Feature request: "Option for double-click on treeview" (issue-171)
+- Feature request: "Toggle on atom startup" (issue-168)
 - Fixed error reported in "Uncaught TypeError: Cannot read property 'replace' of undefined!" (issue-173)
 - Fixed error reported in "Uncaught SyntaxError: Unexpected token  in JSON at position 0" (issue-44)
 

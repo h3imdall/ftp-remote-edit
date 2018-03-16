@@ -19,10 +19,11 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Feature request: Option "Opening hidden files" (e.g. htaccess) (issue-66)
 - Feature request: Option "Preview opened file in pending pane" to have the same behavior than in atom (issue-83)
 - Feature request: Option "Sort Servers By Name" (issue-106)
-- Feature request: "Fuzzy finder for remote files" (issue-109)
-- Feature request: "Support for file-icons package" (issue-125)
-- Feature request: "Auto Reveal Active file in Tree" (issue-158)
-- Feature request: "Open from command line" (issue-165)
+- Feature request: Fuzzy finder for remote files (issue-109)
+- Feature request: Support for file-icons package (issue-125)
+- Feature request: Option "Auto Reveal Active File" (issue-158)
+- Feature request: Open from command line (issue-165)
+- Feature request: Option "Toggle on atom startup" (issue-168)
 
 ## Getting started
 
@@ -48,6 +49,7 @@ Add temporary server for ftp/sftp by using uri. It is possible to use it with/wi
 
 ## Package preferences
 
+- `Tree View` - `Open On Startup` - Open the view automatically when atom starts.
 - `Tree View` - `Open In Atom Dock` - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
 - `Tree View` - `Show On Right Side` - Show the view on the right side of the editor instead of the left.
 - `Tree View` - `Allow Pending Pane Items` - Allow items to be previewed without adding them to a pane permanently.
