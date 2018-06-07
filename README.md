@@ -24,6 +24,7 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Feature request: Option "Auto Reveal Active File" (issue-158)
 - Feature request: Open from command line (issue-165)
 - Feature request: Option "Toggle on atom startup" (issue-168)
+- Feature request: "Configuration view - Duplicate Server" (issue-77)
 
 ## Getting started
 
