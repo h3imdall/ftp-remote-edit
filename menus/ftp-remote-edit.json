@@ -71,6 +71,10 @@
         "command": "ftp-remote-edit:paste"
       },
       {
+        "label": "File Permissions",
+        "command": "ftp-remote-edit:permissions"
+      },
+      {
         "type": "separator"
       },
       {
@@ -120,6 +124,10 @@
       {
         "label": "Paste",
         "command": "ftp-remote-edit:paste"
+      },
+      {
+        "label": "File Permissions",
+        "command": "ftp-remote-edit:permissions"
       },
       {
         "type": "separator"

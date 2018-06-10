@@ -191,7 +191,7 @@ atom-text-editor.disabled {
     }
 
     .selected:before {
-    //   background: @tree-view-background-selected-color;
+      //   background: @tree-view-background-selected-color;
     }
 
     .entry {
@@ -281,6 +281,28 @@ atom-text-editor.disabled {
       width: 10%;
       float: right;
       padding-left: 1%;
+    }
+  }
+}
+
+.ftp-remote-edit.permissions-view {
+  .control-group {
+    .controls.checkbox {
+      .control input:disabled {
+        background-color: #373737 !important;
+      }
+
+      .control:nth-child(1) {
+        width: 43%;
+      }
+
+      .control:nth-child(2) {
+        width: 43%;
+      }
+
+      .control:nth-child(3) {
+        width: 14%;
+      }
     }
   }
 }
