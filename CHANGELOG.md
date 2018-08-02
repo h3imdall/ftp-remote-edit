@@ -11,6 +11,7 @@
 - Feature request: "Toggle on atom startup" (issue-168)
 - Fixed error reported in "Uncaught TypeError: Cannot read property 'replace' of undefined!" (issue-173)
 - Fixed error reported in "Uncaught SyntaxError: Unexpected token  in JSON at position 0" (issue-44)
+- Fixed error reported in "Files don't load after being left for a while" (issue-163)
 
 ## 0.12.11 - Release
 - Fixed error reported in "Unable to open after upgrade to 0.12.10" (issue-172)
