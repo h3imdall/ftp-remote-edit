@@ -123,10 +123,17 @@
     "properties": {
       "showNotificationOnUpload": {
         "title": "Successful Upload",
-        "description": "Show Notification on successful Upload.",
+        "description": "Show notification on successful upload.",
         "type": "boolean",
         "default": true,
         "order": 1
+      },
+      "openProtocolViewOnError": {
+        "title": "Failed Upload",
+        "description": "Open protocol view in case of failed upload.",
+        "type": "boolean",
+        "default": true,
+        "order": 2
       }
     },
     "order": 5

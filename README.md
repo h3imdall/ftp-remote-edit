@@ -62,7 +62,8 @@ Add temporary server for ftp/sftp by using uri. It is possible to use it with/wi
 - `Tree View` - `Auto Reveal Active File` - Auto reveal the current active file on the tree view.
 - `Tree View Finder` - `Key For Search` - Specifies the key at which the search is to be used.
 - `Tree View Finder` - `Ignored Names` - Files and directories matching these patterns and the `Ignored Names` core config setting will be ignored during indexing.
-- `Notification` - `Successful Upload Notification` - Show notification on successful Upload
+- `Notification` - `Successful Upload` - Show notification on successful Upload
+- `Notification` - `Failed Upload` - Open protocol view in case of failed upload.
 - `Development` - `Debug Mode` - Output debug messages to the console.
 
 ## I'd like to support this project

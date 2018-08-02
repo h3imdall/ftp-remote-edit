@@ -4,6 +4,7 @@
 - Fixed error reported in "Uncaught Error: EEXIST: file already exists, mkdir '~/AppData\Local\Temp\8bfa6933\159.65.146.12\v...'" (issue-192)
 - Fixed error reported in "Uncaught TypeError: Cannot read property 'constructor' of undefined" (issue-164)
 - Fixed error reported in "Uncaught RangeError: Maximum call stack size exceeded" (issue-180)
+- Feature request: "Stop bottom pane from opening on upload" (issue-199)
 
 ## 0.12.12 - Release
 - Feature request: "Option for double-click on treeview" (issue-171)
