@@ -1,3 +1,6 @@
+## 0.12.14 - Release
+- Fixed error reported in "fs is not defined" (issue-203)
+
 ## 0.12.13 - Release
 - Feature request: "Configuration view - Duplicate Server" (issue-77)
 - Feature request: "Change permissions of a file" (issue-137)
