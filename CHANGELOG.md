@@ -1,6 +1,9 @@
-## 0.12.15 - Release
+## 0.12.16 - Release
 - Fixed error reported in "Permissions change after save" (issue-205)
 - Fixed error reported in "Files do not open after update" (issue-206)
+
+## 0.12.15 - Release
+- Ignore - Error occurred during publishing
 
 ## 0.12.14 - Release
 - Fixed error reported in "fs is not defined" (issue-203)
