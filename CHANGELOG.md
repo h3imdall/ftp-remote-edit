@@ -1,3 +1,6 @@
+## 0.12.17 - Release
+- Fixed error reported in "Image view doesn't work". The transfer mode has been changed from utf8 to binary mode. (issue-58)
+
 ## 0.12.16 - Release
 - Fixed error reported in "Permissions change after save" (issue-205)
 - Fixed error reported in "Files do not open after update" (issue-206)
