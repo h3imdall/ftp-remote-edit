@@ -1,3 +1,6 @@
+## 0.12.18 - Release
+- Enhancement: "Corrected URI handler allowing special characters in login and password." (PR-215)
+
 ## 0.12.17 - Release
 - Fixed error reported in "Image view doesn't work". The transfer mode has been changed from utf8 to binary mode. (issue-58)
 
