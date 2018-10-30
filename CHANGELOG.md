@@ -1,3 +1,6 @@
+## 0.12.19 - Release
+- Fixed error reported in "Empty files on server after save". (issue-220)
+
 ## 0.12.18 - Release
 - Enhancement: "Corrected URI handler allowing special characters in login and password." (PR-215)
 
