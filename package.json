@@ -36,6 +36,18 @@
       }
     }
   },
+  "providedServices": {
+    "ftp-remote.openFile": {
+      "versions": {
+        "0.1.0": "openRemoteFile"
+      }
+    },
+    "ftp-remote.getCurrentServerConfig": {
+      "versions": {
+        "0.1.0": "getCurrentServerConfig"
+      }
+    }
+  },
   "uriHandler": {
     "method": "handleURI",
     "deferActivation": false
