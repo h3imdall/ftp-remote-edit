@@ -46,6 +46,11 @@
       "versions": {
         "0.1.0": "getCurrentServerConfig"
       }
+    },
+    "ftp-remote.getCurrentServerName": {
+      "versions": {
+        "0.1.0": "getCurrentServerName"
+      }
     }
   },
   "uriHandler": {
