@@ -36,7 +36,7 @@
       },
       {
         "label": "Find Remote Path",
-        "command": "ftp-remote-edit:find"
+        "command": "ftp-remote-edit:find-remote-path"
       },
       {
         "label": "Find File",
@@ -79,7 +79,7 @@
       },
       {
         "label": "Find Remote Path",
-        "command": "ftp-remote-edit:find"
+        "command": "ftp-remote-edit:find-remote-path"
       },
       {
         "label": "Copy Remote Path",
@@ -134,7 +134,7 @@
       },
       {
         "label": "Find Remote Path",
-        "command": "ftp-remote-edit:find"
+        "command": "ftp-remote-edit:find-remote-path"
       },
       {
         "label": "Copy Remote Path",
