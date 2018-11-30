@@ -67,12 +67,16 @@
         "command": "ftp-remote-edit:delete"
       },
       {
+        "label": "Cut",
+        "command": "ftp-remote-edit:cut"
+      },
+      {
         "label": "Paste",
         "command": "ftp-remote-edit:paste"
       },
       {
         "label": "File Permissions",
-        "command": "ftp-remote-edit:permissions"
+        "command": "ftp-remote-edit:chmod"
       },
       {
         "type": "separator"
@@ -127,7 +131,7 @@
       },
       {
         "label": "File Permissions",
-        "command": "ftp-remote-edit:permissions"
+        "command": "ftp-remote-edit:chmod"
       },
       {
         "type": "separator"
