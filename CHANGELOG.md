@@ -1,3 +1,6 @@
+## 0.12.21 - Release
+- Fix error
+
 ## 0.12.20 - Release
 - Add providers for opening files and getting server config (PR-228)
 - More descriptive pane item names (PR-229)
