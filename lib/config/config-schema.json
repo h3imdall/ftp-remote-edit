@@ -13,6 +13,20 @@
     "default": "",
     "order": 2
   },
+  "allowedConsumers": {
+    "title": "Whitelisted Consumers (encrypted)",
+    "description": "You can clear this to disallow access to your server configuration for all third-party packages.",
+    "type": "string",
+    "default": "",
+    "order": 3
+  },
+  "disallowedConsumers": {
+    "title": "Blacklisted Consumers (encrypted)",
+    "description": "You can clear this to allow all third-party packages to request access to your server configuration.",
+    "type": "string",
+    "default": "",
+    "order": 4
+  },
   "tree": {
     "type": "object",
     "title": "Tree View",
@@ -81,7 +95,7 @@
         "order": 9
       }
     },
-    "order": 3
+    "order": 5
   },
   "finder": {
     "type": "object",
@@ -115,7 +129,7 @@
         "order": 2
       }
     },
-    "order": 4
+    "order": 6
   },
   "notifications": {
     "type": "object",
@@ -136,7 +150,7 @@
         "order": 2
       }
     },
-    "order": 5
+    "order": 7
   },
   "dev": {
     "type": "object",
@@ -150,6 +164,6 @@
         "order": 1
       }
     },
-    "order": 6
+    "order": 8
   }
 }
