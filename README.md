@@ -78,11 +78,12 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 
 ## Special Thanks
 
-- [@miles-collier](https://github.com/miles-collier) [Issue-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Keybinding for toggling
-- [@dustinparker](https://github.com/dustinparker) [Issue-106](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
+- [@miles-collier](https://github.com/miles-collier) [PR-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Keybinding for toggling
+- [@dustinparker](https://github.com/dustinparker) [PR-112](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
 - [@Me1onRind](https://github.com/Me1onRind)
-[Issue-109](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
+[PR-124](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
 - [@wacki4](https://github.com/wacki4)
-[Issue-165](https://github.com/h3imdall/ftp-remote-edit/pull/169) Open from command line
+[PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169) Open from command line
 - [@FabrizioCaldarelli ](https://github.com/FabrizioCaldarelli)
-[Issue-173](https://github.com/h3imdall/ftp-remote-edit/pull/178),  [Issue-44](https://github.com/h3imdall/ftp-remote-edit/pull/174) Help fix some errors
+[PR-178](https://github.com/h3imdall/ftp-remote-edit/pull/178),  [PR-174](https://github.com/h3imdall/ftp-remote-edit/pull/174) Help fix some errors
+- [@pfitzseb](https://github.com/pfitzseb) [PR-228](https://github.com/h3imdall/ftp-remote-edit/pull/228), [PR-229](https://github.com/h3imdall/ftp-remote-edit/pull/229) Add providers for better [Juno](http://junolab.org/) integration

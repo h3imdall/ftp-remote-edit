@@ -1,3 +1,7 @@
+## 0.12.20 - Release
+- Add providers for opening files and getting server config (PR-228)
+- More descriptive pane item names (PR-229)
+
 ## 0.12.19 - Release
 - Fixed error reported in "Empty files on server after save". (issue-220)
 
