@@ -22,7 +22,7 @@
   },
   "disallowedConsumers": {
     "title": "Blacklisted Consumers (encrypted)",
-    "description": "You can clear this to allow all third-party packages request access to your server configuration.",
+    "description": "You can clear this to allow all third-party packages to request access to your server configuration.",
     "type": "string",
     "default": "",
     "order": 4
