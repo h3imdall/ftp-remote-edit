@@ -1,7 +1,7 @@
 {
   "name": "ftp-remote-edit",
   "main": "./lib/ftp-remote-edit",
-  "version": "0.12.19",
+  "version": "0.12.20",
   "description": "Edit remotely files on your ftp/sftp(ssh) server without a project. All your connection information will be encrypted.",
   "keywords": [
     "ftp",
@@ -33,6 +33,23 @@
     "file-icons.element-icons": {
       "versions": {
         "1.0.0": "consumeElementIcons"
+      }
+    }
+  },
+  "providedServices": {
+    "ftp-remote.openFile": {
+      "versions": {
+        "0.1.0": "openRemoteFile"
+      }
+    },
+    "ftp-remote.getCurrentServerConfig": {
+      "versions": {
+        "0.1.0": "getCurrentServerConfig"
+      }
+    },
+    "ftp-remote.getCurrentServerName": {
+      "versions": {
+        "0.1.0": "getCurrentServerName"
       }
     }
   },
