@@ -3,6 +3,7 @@
   "host": "",
   "port": "",
   "user": "",
+  "useAgent": false,
   "password": "",
   "sftp": false,
   "privatekeyfile": "",
