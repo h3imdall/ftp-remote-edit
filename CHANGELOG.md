@@ -1,3 +1,6 @@
+## 0.12.22 - Release
+- Add suppport for agent based authentication (PR-241, issue-143)
+
 ## 0.12.21 - Release
 - Fix error
 

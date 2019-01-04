@@ -5,27 +5,19 @@ Simply connect and edit your remote files. The files will be automatically updat
 
 ![A screenshot of your package](https://raw.githubusercontent.com/h3imdall/ftp-remote-edit/master/screenshot.png)
 
-## Whats new in 0.12
+## Whats new
 
-- Added Option "Open in Atom Dock" - Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0
-- Added FTP Message Log - Shows sent/received FTP commands in log
-- Changed refreshing behavior of the tree view
-- Feature request: Drag-and-Drop (issue-25)
-- Feature request: Copy / Cut / Paste files (issue-24)
-- Feature request: Rename copied file if exists to prevent collision of names (issue-61)
-- Feature request: Statusbar for upload/download (issue-69)
-- Feature request: Option "Disable Notification on save/upload" (issue-55)
-- Feature request: Option "Hide Ignored Names" (issue-78)
-- Feature request: Option "Opening hidden files" (e.g. htaccess) (issue-66)
-- Feature request: Option "Preview opened file in pending pane" to have the same behavior than in atom (issue-83)
+- Feature request: Configuration view - Duplicate Server (issue-77)
 - Feature request: Option "Sort Servers By Name" (issue-106)
 - Feature request: Fuzzy finder for remote files (issue-109)
 - Feature request: Support for file-icons package (issue-125)
+- Feature request: Change permissions of a file"(issue-137)
+- Feature request: Add suppport for agent based authentication (issue-143)
 - Feature request: Option "Auto Reveal Active File" (issue-158)
 - Feature request: Open from command line (issue-165)
 - Feature request: Option "Toggle on atom startup" (issue-168)
-- Feature request: "Configuration view - Duplicate Server" (issue-77)
-- Feature request: "Change permissions of a file" (issue-137)
+- Feature request: Stop bottom pane from opening on upload (issue-199)
+[more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
 
@@ -86,4 +78,4 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 [PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169) Open from command line
 - [@FabrizioCaldarelli ](https://github.com/FabrizioCaldarelli)
 [PR-178](https://github.com/h3imdall/ftp-remote-edit/pull/178),  [PR-174](https://github.com/h3imdall/ftp-remote-edit/pull/174) Help fix some errors
-- [@pfitzseb](https://github.com/pfitzseb) [PR-228](https://github.com/h3imdall/ftp-remote-edit/pull/228), [PR-229](https://github.com/h3imdall/ftp-remote-edit/pull/229) Add providers for better [Juno](http://junolab.org/) integration
+- [@pfitzseb](https://github.com/pfitzseb) [PR-228](https://github.com/h3imdall/ftp-remote-edit/pull/228), [PR-229](https://github.com/h3imdall/ftp-remote-edit/pull/229) Add providers for better [Juno](http://junolab.org/) integration, [PR-241](https://github.com/h3imdall/ftp-remote-edit/pull/241) Add suppport for agent based authentication
