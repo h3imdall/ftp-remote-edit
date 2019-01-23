@@ -15,10 +15,10 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@icetee/ftp": "0.3.11",
+    "@icetee/ftp": "^0.3.15",
     "atom-select-list": "^0.3.0",
     "atom-space-pen-views": "^2.2.0",
-    "fs-plus": "^3.0.0",
+    "fs-plus": "^3.1.1",
     "fuzzaldrin": "^2.1.0",
     "fuzzaldrin-plus": "^0.5.0",
     "key-path-helpers": "^0.4.0",
@@ -27,7 +27,7 @@
     "progress-stream": "^2.0.0",
     "season": "^6.0.1",
     "short-hash": "^1.0.0",
-    "ssh2": "^0.5.5"
+    "ssh2-sftp-client": "^2.4.3"
   },
   "consumedServices": {
     "file-icons.element-icons": {
