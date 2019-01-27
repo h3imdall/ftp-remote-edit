@@ -93,6 +93,13 @@
         "type": "boolean",
         "default": true,
         "order": 9
+      },
+      "alwaysReopenFile": {
+        "title": "Always reopen file",
+        "description": "If file is opened it will be always reloaded",
+        "type": "boolean",
+        "default": false,
+        "order": 10
       }
     },
     "order": 5
