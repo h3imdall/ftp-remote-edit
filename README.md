@@ -17,6 +17,8 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Feature request: Open from command line (issue-165)
 - Feature request: Option "Toggle on atom startup" (issue-168)
 - Feature request: Stop bottom pane from opening on upload (issue-199)
+- Enhancement: Extend URI handler to allow path parameter (PR-245, issue-244)
+- Enhancement: Correct sorting on treeview by alphabet, ignoring lower/upper case characters (PR-246)
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
@@ -75,7 +77,7 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - [@Me1onRind](https://github.com/Me1onRind)
 [PR-124](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
 - [@wacki4](https://github.com/wacki4)
-[PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169) Open from command line
+[PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169), [PR-245](https://github.com/h3imdall/ftp-remote-edit/pull/245) Add URI handler
 - [@FabrizioCaldarelli ](https://github.com/FabrizioCaldarelli)
 [PR-178](https://github.com/h3imdall/ftp-remote-edit/pull/178),  [PR-174](https://github.com/h3imdall/ftp-remote-edit/pull/174) Help fix some errors
 - [@pfitzseb](https://github.com/pfitzseb) [PR-228](https://github.com/h3imdall/ftp-remote-edit/pull/228), [PR-229](https://github.com/h3imdall/ftp-remote-edit/pull/229) Add providers for better [Juno](http://junolab.org/) integration, [PR-241](https://github.com/h3imdall/ftp-remote-edit/pull/241) Add suppport for agent based authentication
