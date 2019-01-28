@@ -45,9 +45,9 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Reindex the fuzzy finder cache with "ftp-remote-edit:finder-reindex-cache"
 
 ## URI handler
-Add temporary server for ftp/sftp by using uri. It is possible to use it with/without username, password and port.
-- atom://ftp-remote-edit/sftp://username:password@host:port
-- atom://ftp-remote-edit/ftp://username:password@host:port
+Add temporary server for ftp/sftp by using uri. It is possible to use it with/without username, password, port and path.
+- atom://ftp-remote-edit/sftp://username:password@host:port/path
+- atom://ftp-remote-edit/ftp://username:password@host:port/path
 
 ## Package preferences
 
