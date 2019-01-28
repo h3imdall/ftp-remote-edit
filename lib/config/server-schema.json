@@ -7,5 +7,6 @@
   "password": "",
   "sftp": false,
   "privatekeyfile": "",
-  "remote": "/"
+  "remote": "/",
+  "logon": "credentials"
 }
