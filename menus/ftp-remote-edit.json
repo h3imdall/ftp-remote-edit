@@ -39,7 +39,7 @@
         "command": "ftp-remote-edit:find-remote-path"
       },
       {
-        "label": "Find File",
+        "label": "File Finder",
         "command": "ftp-remote-edit:finder"
       },
       {
@@ -75,22 +75,22 @@
         "command": "ftp-remote-edit:paste"
       },
       {
-        "label": "File Permissions",
-        "command": "ftp-remote-edit:chmod"
-      },
-      {
         "type": "separator"
-      },
-      {
-        "label": "Find Remote Path",
-        "command": "ftp-remote-edit:find-remote-path"
       },
       {
         "label": "Copy Remote Path",
         "command": "ftp-remote-edit:copy-remote-path"
       },
       {
-        "label": "Find File",
+        "label": "Find Remote Path",
+        "command": "ftp-remote-edit:find-remote-path"
+      },
+      {
+        "label": "Permissions",
+        "command": "ftp-remote-edit:chmod"
+      },
+      {
+        "label": "File Finder",
         "command": "ftp-remote-edit:finder"
       },
       {
@@ -114,6 +114,10 @@
         "command": "ftp-remote-edit:rename"
       },
       {
+        "label": "Duplicate",
+        "command": "ftp-remote-edit:duplicate"
+      },
+      {
         "label": "Delete",
         "command": "ftp-remote-edit:delete"
       },
@@ -130,22 +134,22 @@
         "command": "ftp-remote-edit:paste"
       },
       {
-        "label": "File Permissions",
-        "command": "ftp-remote-edit:chmod"
-      },
-      {
         "type": "separator"
-      },
-      {
-        "label": "Find Remote Path",
-        "command": "ftp-remote-edit:find-remote-path"
       },
       {
         "label": "Copy Remote Path",
         "command": "ftp-remote-edit:copy-remote-path"
       },
       {
-        "label": "Find File",
+        "label": "Find Remote Path",
+        "command": "ftp-remote-edit:find-remote-path"
+      },
+      {
+        "label": "Permissions",
+        "command": "ftp-remote-edit:chmod"
+      },
+      {
+        "label": "File Finder",
         "command": "ftp-remote-edit:finder"
       },
       {
