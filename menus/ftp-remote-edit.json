@@ -6,10 +6,6 @@
       "submenu": [{
           "label": "Toggle",
           "command": "ftp-remote-edit:toggle"
-        },
-        {
-          "label": "Edit Servers",
-          "command": "ftp-remote-edit:edit-servers"
         }
       ]
     }]
@@ -165,19 +161,6 @@
         "label": "Edit Servers",
         "command": "ftp-remote-edit:edit-servers"
       }
-    ],
-
-    "atom-text-editor": [{
-      "label": "Ftp-Remote-Edit",
-      "submenu": [{
-          "label": "Toggle",
-          "command": "ftp-remote-edit:toggle"
-        },
-        {
-          "label": "Edit Servers",
-          "command": "ftp-remote-edit:edit-servers"
-        }
-      ]
-    }]
+    ]
   }
 }
