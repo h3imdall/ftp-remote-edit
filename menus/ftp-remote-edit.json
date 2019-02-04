@@ -35,7 +35,7 @@
         "command": "ftp-remote-edit:find-remote-path"
       },
       {
-        "label": "File Finder",
+        "label": "Fuzzy File Finder",
         "command": "ftp-remote-edit:finder"
       },
       {
@@ -71,6 +71,10 @@
         "command": "ftp-remote-edit:paste"
       },
       {
+        "label": "Permissions",
+        "command": "ftp-remote-edit:chmod"
+      },
+      {
         "type": "separator"
       },
       {
@@ -82,11 +86,7 @@
         "command": "ftp-remote-edit:find-remote-path"
       },
       {
-        "label": "Permissions",
-        "command": "ftp-remote-edit:chmod"
-      },
-      {
-        "label": "File Finder",
+        "label": "Fuzzy File Finder",
         "command": "ftp-remote-edit:finder"
       },
       {
@@ -130,6 +130,10 @@
         "command": "ftp-remote-edit:paste"
       },
       {
+        "label": "Permissions",
+        "command": "ftp-remote-edit:chmod"
+      },
+      {
         "type": "separator"
       },
       {
@@ -141,11 +145,7 @@
         "command": "ftp-remote-edit:find-remote-path"
       },
       {
-        "label": "Permissions",
-        "command": "ftp-remote-edit:chmod"
-      },
-      {
-        "label": "File Finder",
+        "label": "Fuzzy File Finder",
         "command": "ftp-remote-edit:finder"
       },
       {
