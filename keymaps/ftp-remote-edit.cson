@@ -1,0 +1,27 @@
+'.platform-darwin atom-workspace, .platform-darwin atom-text-editor':
+  'cmd-space': 'ftp-remote-edit:toggle',
+  'cmd-alt-p': 'ftp-remote-edit:finder'
+
+'.platform-win32 atom-workspace, .platform-linux atom-workspace, .platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-space': 'ftp-remote-edit:toggle',
+  'ctrl-alt-p': 'ftp-remote-edit:finder'
+
+'.platform-darwin .ftp-remote-edit-view':
+  'cmd-c': 'ftp-remote-edit:copy'
+  'cmd-x': 'ftp-remote-edit:cut'
+  'cmd-v': 'ftp-remote-edit:paste'
+
+'.platform-win32 .ftp-remote-edit-view, .platform-linux .ftp-remote-edit-view':
+  'ctrl-c': 'ftp-remote-edit:copy'
+  'ctrl-x': 'ftp-remote-edit:cut'
+  'ctrl-v': 'ftp-remote-edit:paste'
+
+'.ftp-remote-edit-view':
+  'escape': 'ftp-remote-edit:unfocus'
+  'm': 'ftp-remote-edit:rename'
+  'f2': 'ftp-remote-edit:rename'
+  'a': 'ftp-remote-edit:new-file'
+  'shift-a': 'ftp-remote-edit:new-directory'
+  'd': 'ftp-remote-edit:duplicate'
+  'delete': 'ftp-remote-edit:delete'
+  'backspace': 'ftp-remote-edit:delete'
