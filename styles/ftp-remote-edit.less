@@ -380,7 +380,7 @@
 
 // Default Themes
 .theme-one-dark-ui {
-  .ftp-remote-edit-view.focus {
+  .ftp-remote-edit-view:focus {
     .ftp-remote-edit-list {
       .selected:before {
         background: #4d78cc;
@@ -388,6 +388,14 @@
     }
   }
   
+  .ftp-remote-edit-view {
+    .ftp-remote-edit-list:focus {
+      .selected:before {
+        background: #4d78cc;
+      }
+    }
+  }
+
   .ftp-remote-edit.settings-view {
     .form-control {
       font-size: 1.2em;
@@ -441,6 +449,29 @@
       color: #444;
     }
   }
+
+  .ftp-remote-edit-view:focus {
+    .ftp-remote-edit-list {
+      .selected:before {
+        background: #5a8ae9;
+      }
+      .selected > .name, .selected > .list-item > .name {
+        color: #ffffff;
+      }
+    }
+  }
+  
+  .ftp-remote-edit-view {
+    .ftp-remote-edit-list:focus {
+      .selected:before {
+        background: #5a8ae9;
+      }
+      .selected > .name, .selected > .list-item > .name {
+        color: #ffffff;
+      }
+    }
+  }
+
   .ftp-remote-edit.settings-view {
     .form-control {
       font-size: 1.2em;
@@ -489,6 +520,15 @@
 }
 
 .theme-atom-dark-ui {
+  .ftp-remote-edit-view {
+    background: #303030;
+
+    .selected:before {
+      background: #444;
+      box-shadow: inset -3px 0 0 rgba(0, 0, 0, 0.05);
+    }
+  }
+
   .ftp-remote-edit.settings-view {
     .form-control {
       font-size: 1.2em;
@@ -540,6 +580,10 @@
   .ftp-remote-edit-view {
     background-tip ul.background-message {
       color: #333333;
+    }
+
+    .selected:before {
+      background: #d0d0d0;
     }
   }
 
