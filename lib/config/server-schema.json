@@ -3,6 +3,7 @@
   "host": "",
   "port": "",
   "user": "",
+  "parent": null,
   "useAgent": false,
   "password": "",
   "sftp": false,
