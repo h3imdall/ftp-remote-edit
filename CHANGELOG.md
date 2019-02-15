@@ -1,3 +1,17 @@
+## 0.13.0 - Release
+- Enhancement: Refactoring of the complete source code
+- Enhancement: Updating of all dependencies
+- Enhancement: Optimize configuration view for small screens and add option to duplicate servers
+- Enhancement: Optimize support for default atom themes
+- Enhancement: Optimize rename/duplicate dialogs (path preselection)
+- Enhancement: Optimize context menu
+- Enhancement: Speed up auto reveal active file by adding visibility checking
+- Enhancement: Add Upload of files (drag/drop from outside of atom)
+- Enhancement: Add Upload of directories (drag/drop from outside of atom)
+- Feature request: "Add option to duplicate files." (issue-248)
+- Feature request: "Add keyboard shortcuts for context-menu actions" (issue-250)
+- Feature request: "Copy local folder/file into remote server" (issue-#138)
+
 ## 0.12.23 - Release
 - Enhancement: Extend URI handler to allow path parameter (PR-245, issue-244)
 - Enhancement: Correct sorting on treeview by alphabet, ignoring lower/upper case characters (PR-246)
