@@ -7,30 +7,31 @@ Simply connect and edit your remote files. The files will be automatically updat
 
 ## Whats new
 
-- Feature request: Configuration view - Duplicate Server (issue-77)
-- Feature request: Option "Sort Servers By Name" (issue-106)
-- Feature request: Fuzzy finder for remote files (issue-109)
-- Feature request: Support for file-icons package (issue-125)
-- Feature request: Change permissions of a file"(issue-137)
-- Feature request: Add suppport for agent based authentication (issue-143)
-- Feature request: Option "Auto Reveal Active File" (issue-158)
-- Feature request: Open from command line (issue-165)
-- Feature request: Option "Toggle on atom startup" (issue-168)
-- Feature request: Stop bottom pane from opening on upload (issue-199)
-- Enhancement: Extend URI handler to allow path parameter (PR-245, issue-244)
-- Enhancement: Correct sorting on treeview by alphabet, ignoring lower/upper case characters (PR-246)
+- Enhancement: Refactoring of the complete source code
+- Enhancement: Updating of all dependencies
+- Enhancement: Optimize configuration view for small screens and add option to duplicate servers
+- Enhancement: Optimize support for default atom themes
+- Enhancement: Optimize rename/duplicate dialogs (path preselection)
+- Enhancement: Optimize context menu
+- Enhancement: Speed up auto reveal active file by adding visibility checking
+- Enhancement: Add Upload of files (drag/drop from outside of atom)
+- Enhancement: Add Upload of directories (drag/drop from outside of atom)
+- Feature request: "Add option to duplicate files." (issue-248)
+- Feature request: "Add keyboard shortcuts for context-menu actions" (issue-250)
+- Feature request: "Copy local folder/file into remote server" (issue-#138)
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
 
-- Toggle the view with "ftp-remote-edit:toggle" or use keybinding `ctrl-space`
+- Toggle the view with "ftp-remote-edit:toggle" or use keybinding `ctrl-space` or `cmd-space`
 - Enter the master password. If not allready set, enter the firsttime. All information about your server settings will be encrypted with this password.
 - Right click and select "Edit Servers" to open the configuration view. Here you can add, edit and delete your (s)ftp server settings.
 
 ## Keybindings
 
-- Toggle the view with `ctrl-space`
-- Toggle the fuzzy finder with `ctrl-alt-p` (item must be selected in the tree view)
+- Toggle the view with `ctrl-space` or `cmd-space`
+- Toggle the focus with `ctrl-alt-space` or `cmd-alt-space`
+- Toggle the fuzzy finder with `ctrl-alt-p` or `cmd-alt-p` (item must be selected in the tree view)
 
 ## Helpfull commands
 - Toggle the view with "ftp-remote-edit:toggle"
