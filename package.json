@@ -15,7 +15,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@icetee/ftp": "^1.0.3",
+    "@icetee/ftp": "^0.3.15",
     "atom-select-list": "^0.3.0",
     "atom-space-pen-views": "^2.2.0",
     "fs-plus": "^3.1.1",

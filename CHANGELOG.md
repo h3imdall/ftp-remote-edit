@@ -1,3 +1,7 @@
+## 0.13.1 - Release
+- Downgrade @icetee/ftp to 0.3.15 to prevent EPSV (unknown command) error on Pure-FTPd server
+- Fix error reported in "Connection Issue - Unknown command" (issue-254)
+
 ## 0.13.0 - Release
 - Enhancement: Refactoring of the complete source code
 - Enhancement: Updating of all dependencies
