@@ -23,15 +23,15 @@ Simply connect and edit your remote files. The files will be automatically updat
 
 ## Getting started
 
-- Toggle the view with "ftp-remote-edit:toggle" or use keybinding `ctrl-space` or `cmd-space`
+- Toggle the view with "ftp-remote-edit:toggle" or use keybinding `ctrl-space`
 - Enter the master password. If not allready set, enter the firsttime. All information about your server settings will be encrypted with this password.
 - Right click and select "Edit Servers" to open the configuration view. Here you can add, edit and delete your (s)ftp server settings.
 
 ## Keybindings
 
-- Toggle the view with `ctrl-space` or `cmd-space`
-- Toggle the focus with `ctrl-alt-space` or `cmd-alt-space`
-- Toggle the fuzzy finder with `ctrl-alt-p` or `cmd-alt-p` (item must be selected in the tree view)
+- Toggle the view with `ctrl-space`
+- Toggle the focus with `ctrl-alt-space`
+- Toggle the fuzzy finder with `ctrl-alt-p` (item must be selected in the tree view)
 
 ## Helpfull commands
 - Toggle the view with "ftp-remote-edit:toggle"

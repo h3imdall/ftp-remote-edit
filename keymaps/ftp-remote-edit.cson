@@ -1,7 +1,7 @@
 '.platform-darwin':
-  'cmd-space': 'ftp-remote-edit:toggle',
-  'cmd-alt-p': 'ftp-remote-edit:finder',
-  'cmd-alt-space': 'ftp-remote-edit:toggle-focus'
+  'ctrl-space': 'ftp-remote-edit:toggle',
+  'ctrl-alt-p': 'ftp-remote-edit:finder',
+  'ctrl-alt-space': 'ftp-remote-edit:toggle-focus'
 
 '.platform-win32, .platform-linux':
   'ctrl-space': 'ftp-remote-edit:toggle',
