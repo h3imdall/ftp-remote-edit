@@ -106,6 +106,10 @@
         "type": "separator"
       },
       {
+        "label": "Open/Reopen File",
+        "command": "ftp-remote-edit:reopen-file"
+      },
+      {
         "label": "Rename",
         "command": "ftp-remote-edit:rename"
       },
