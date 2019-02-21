@@ -14,11 +14,11 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Enhancement: Optimize rename/duplicate dialogs (path preselection)
 - Enhancement: Optimize context menu
 - Enhancement: Speed up auto reveal active file by adding visibility checking
-- Enhancement: Add Upload of files (drag/drop from outside of atom)
-- Enhancement: Add Upload of directories (drag/drop from outside of atom)
+- Enhancement: Add upload of files (drag/drop from outside of atom)
+- Enhancement: Add upload of directories (drag/drop from outside of atom)
 - Feature request: "Add option to duplicate files." (issue-248)
 - Feature request: "Add keyboard shortcuts for context-menu actions" (issue-250)
-- Feature request: "Copy local folder/file into remote server" (issue-#138)
+- Feature request: "Copy local folder/file into remote server" (issue-138)
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
