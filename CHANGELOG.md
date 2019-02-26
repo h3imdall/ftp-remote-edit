@@ -1,3 +1,7 @@
+## 0.13.4
+- Enhancement: Restore keyboard shortcuts from 0.12.23
+- Enhancement: Add more debug messages for "get" function to find error for issue-257.
+
 ## 0.13.3
 - Enhancement: "Unfavorable shortcut (cmd + space) for macOS" (issue-256)
 - Enhancement: "Some correction of URI handler, add auto toggle on using URI handler." (PR-253)
