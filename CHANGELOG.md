@@ -1,3 +1,9 @@
+## 0.13.5
+- Fix error reported in "Connection ends when ftp open for a while" (issue-258)
+- Fix error reported in "Support for TCP Keepalive" (issue-204)
+- Fix error reported in "Can't open files en SFTP after updating" (issue-257)
+- Enhancement: Fix error for remote keyboard navigation
+
 ## 0.13.4
 - Enhancement: Restore keyboard shortcuts from 0.12.23
 - Enhancement: Add more debug messages for "get" function to find error for issue-257.
