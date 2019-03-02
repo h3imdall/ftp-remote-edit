@@ -1,3 +1,7 @@
+## 0.13.6
+- Enhancement: Integrate ssh2 sftp client into plugin to fix dependency update errors without git installed.
+- Fix error reported in "Problem updating from 0.13.4 to 0.13.5" (issue-260)
+
 ## 0.13.5
 - Fix error reported in "Connection ends when ftp open for a while" (issue-258)
 - Fix error reported in "Support for TCP Keepalive" (issue-204)
