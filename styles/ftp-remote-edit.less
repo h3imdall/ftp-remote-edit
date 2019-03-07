@@ -264,30 +264,95 @@
       padding-left: 2.5em;
     }
     .panels-content {
+      .server, .server-settings {
+        float: left;
+        clear: both;
+        width: 100%;
+      }
       .server-settings {
         overflow: auto;
       }
     }
   }
-  .control-group {
+  
+  .folder {
+    height: 30px;
+
+    .controls.folder {
+      float: left;
+      width: 78%;
+    }
+
+    .controls.folder-button {
+      float: right;
+      width: 22%;
+      padding-left: 1%;
+      text-align: left;
+    }
+
+    .controls.folder-button::after {
+      clear: both;
+    }
+  }
+
+  .server {
+    height: 30px;
+
+    .controls.server {
+      float: left;
+      width: 54%;
+    }
+
+    .controls.server-button {
+      float: right;
+      width: 46%;
+      padding-left: 1%;
+      text-align: left;
+    }
+  }
+
+  .server-settings {
+    .controls.name {
+      float: left;
+      width: 54%;
+    }
+
+    .controls.folder {
+      float: left;
+      width: 36%;
+      padding-left: 1%;
+    }
+
+    .controls.folder-button {
+      margin-top: 26px;
+      padding-left: 1%;
+      float: right;
+      width: 10%;
+    }
+
     .controls.host {
       float: left;
       width: 90%;
     }
 
     .controls.port {
-      width: 10%;
       float: right;
+      width: 10%;
       padding-left: 1%;
     }
+  }
 
-    select.form-control {
+  .control-group {
+    clear: both;
+    width: 100%;
+
+    .controls {
       margin-bottom: 0.75em;
-      padding-left: 5px;
     }
 
     atom-text-editor.form-control {
       overflow: hidden !important;
+      margin-bottom: 0px;
     }
   }
 
