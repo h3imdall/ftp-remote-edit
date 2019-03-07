@@ -14,24 +14,24 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Enhancement: Optimize rename/duplicate dialogs (path preselection)
 - Enhancement: Optimize context menu
 - Enhancement: Speed up auto reveal active file by adding visibility checking
-- Enhancement: Add Upload of files (drag/drop from outside of atom)
-- Enhancement: Add Upload of directories (drag/drop from outside of atom)
+- Enhancement: Add upload of files (drag/drop from outside of atom)
+- Enhancement: Add upload of directories (drag/drop from outside of atom)
 - Feature request: "Add option to duplicate files." (issue-248)
 - Feature request: "Add keyboard shortcuts for context-menu actions" (issue-250)
-- Feature request: "Copy local folder/file into remote server" (issue-#138)
+- Feature request: "Copy local folder/file into remote server" (issue-138)
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
 
-- Toggle the view with "ftp-remote-edit:toggle" or use keybinding `ctrl-space` or `cmd-space`
+- Toggle the view with "ftp-remote-edit:toggle" or use keybinding `ctrl-space`
 - Enter the master password. If not allready set, enter the firsttime. All information about your server settings will be encrypted with this password.
 - Right click and select "Edit Servers" to open the configuration view. Here you can add, edit and delete your (s)ftp server settings.
 
 ## Keybindings
 
-- Toggle the view with `ctrl-space` or `cmd-space`
-- Toggle the focus with `ctrl-alt-space` or `cmd-alt-space`
-- Toggle the fuzzy finder with `ctrl-alt-p` or `cmd-alt-p` (item must be selected in the tree view)
+- Toggle the view with `ctrl-space`
+- Toggle the focus with `ctrl-alt-space`
+- Toggle the fuzzy finder with `ctrl-alt-p` (item must be selected in the tree view)
 
 ## Helpfull commands
 - Toggle the view with "ftp-remote-edit:toggle"

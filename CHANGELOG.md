@@ -1,3 +1,29 @@
+## 0.13.6
+- Enhancement: Integrate ssh2 sftp client into plugin to fix dependency update errors without git installed.
+- Fix error reported in "Problem updating from 0.13.4 to 0.13.5" (issue-260)
+
+## 0.13.5
+- Fix error reported in "Connection ends when ftp open for a while" (issue-258)
+- Fix error reported in "Support for TCP Keepalive" (issue-204)
+- Fix error reported in "Can't open files en SFTP after updating" (issue-257)
+- Enhancement: Fix error for remote keyboard navigation
+
+## 0.13.4
+- Enhancement: Restore keyboard shortcuts from 0.12.23
+- Enhancement: Add more debug messages for "get" function to find error for issue-257.
+
+## 0.13.3
+- Enhancement: "Unfavorable shortcut (cmd + space) for macOS" (issue-256)
+- Enhancement: "Some correction of URI handler, add auto toggle on using URI handler." (PR-253)
+
+## 0.13.2
+- Downgrade @icetee/ftp to 0.3.11 to prevent EPSV (unknown command) error on Pure-FTPd server
+- Fix error reported in "Add option to duplicate files." (issue-248)
+
+## 0.13.1 - Release
+- Downgrade @icetee/ftp to 0.3.15 to prevent EPSV (unknown command) error on Pure-FTPd server
+- Fix error reported in "Connection Issue - Unknown command" (issue-254)
+
 ## 0.13.0 - Release
 - Enhancement: Refactoring of the complete source code
 - Enhancement: Updating of all dependencies
