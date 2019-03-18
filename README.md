@@ -19,6 +19,7 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Feature request: "Add option to duplicate files." (issue-248)
 - Feature request: "Add keyboard shortcuts for context-menu actions" (issue-250)
 - Feature request: "Copy local folder/file into remote server" (issue-138)
+Feature request: Grouping servers (issue-72)
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
@@ -78,7 +79,7 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - [@Me1onRind](https://github.com/Me1onRind)
 [PR-124](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
 - [@wacki4](https://github.com/wacki4)
-[PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169), [PR-245](https://github.com/h3imdall/ftp-remote-edit/pull/245) Add URI handler
+[PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169), [PR-245](https://github.com/h3imdall/ftp-remote-edit/pull/245) Add URI handler, [PR-252](https://github.com/h3imdall/ftp-remote-edit/pull/252) Grouping servers
 - [@FabrizioCaldarelli ](https://github.com/FabrizioCaldarelli)
 [PR-178](https://github.com/h3imdall/ftp-remote-edit/pull/178),  [PR-174](https://github.com/h3imdall/ftp-remote-edit/pull/174) Help fix some errors
 - [@pfitzseb](https://github.com/pfitzseb) [PR-228](https://github.com/h3imdall/ftp-remote-edit/pull/228), [PR-229](https://github.com/h3imdall/ftp-remote-edit/pull/229) Add providers for better [Juno](http://junolab.org/) integration, [PR-241](https://github.com/h3imdall/ftp-remote-edit/pull/241) Add suppport for agent based authentication

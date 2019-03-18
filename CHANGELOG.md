@@ -1,3 +1,7 @@
+## 0.14.0
+- Enhancement: Grouping servers (PR-252)
+- Feature request: "Grouping servers." (issue-72)
+
 ## 0.13.6
 - Enhancement: Integrate ssh2 sftp client into plugin to fix dependency update errors without git installed.
 - Fix error reported in "Problem updating from 0.13.4 to 0.13.5" (issue-260)
