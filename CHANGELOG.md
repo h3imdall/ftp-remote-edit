@@ -1,5 +1,6 @@
 ## 0.14.0
 - Enhancement: Grouping servers (PR-252)
+- Enhancement: Fix styles for Atom material UI theme (issue-261)
 - Feature request: "Grouping servers." (issue-72)
 
 ## 0.13.6

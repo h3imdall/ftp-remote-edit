@@ -19,7 +19,8 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Feature request: "Add option to duplicate files." (issue-248)
 - Feature request: "Add keyboard shortcuts for context-menu actions" (issue-250)
 - Feature request: "Copy local folder/file into remote server" (issue-138)
-Feature request: Grouping servers (issue-72)
+- Feature request: Grouping servers (issue-72)
+- Enhancement: Fix styles for Atom material UI theme (issue-261)
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started

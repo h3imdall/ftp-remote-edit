@@ -698,3 +698,36 @@
     z-index: 999;
   }
 }
+
+.theme-atom-material-ui {
+  atom-panel.modal {
+    overflow: visible;
+  }
+
+  .ftp-remote-edit-view {
+    .selected:before {
+      background: #009688;
+    }
+  }
+
+  .ftp-remote-edit.settings-view {
+    .form-control {
+      font-size: 1.2em;
+      border: none;
+      height: inherit;
+    }
+
+    .control-group {
+      atom-text-editor.form-control {
+        font-family: inherit;
+        line-height: inherit;
+        max-height: inherit;
+      }
+    }
+  }
+  .permissions-view {
+    .checkbox {
+      padding-left: 0px;
+    }
+  }
+}
