@@ -43,6 +43,15 @@
       }
     ],
 
+    ".ftp-remote-edit-list.full-menu .selected.server.temp": [{
+            "label": "Add to config",
+            "command": "ftp-remote-edit:add-temp-to-config"
+          },
+          {
+            "type": "separator"
+          }
+    ],
+
     ".ftp-remote-edit-list.full-menu .selected.directory": [{
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
