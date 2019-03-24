@@ -4,10 +4,9 @@
     "submenu": [{
       "label": "Ftp-Remote",
       "submenu": [{
-          "label": "Toggle",
-          "command": "ftp-remote-edit:toggle"
-        }
-      ]
+        "label": "Toggle",
+        "command": "ftp-remote-edit:toggle"
+      }]
     }]
   }],
 
