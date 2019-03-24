@@ -37,7 +37,11 @@
       },
       {
         "label": "Upload File(s)",
-        "command": "ftp-remote-edit:upload-files"
+        "command": "ftp-remote-edit:upload-file"
+      },
+      {
+        "label": "Upload Directory",
+        "command": "ftp-remote-edit:upload-directory"
       },
       {
         "type": "separator"
@@ -86,7 +90,11 @@
       },
       {
         "label": "Upload File(s)",
-        "command": "ftp-remote-edit:upload-files"
+        "command": "ftp-remote-edit:upload-file"
+      },
+      {
+        "label": "Upload Directory",
+        "command": "ftp-remote-edit:upload-directory"
       },
       {
         "type": "separator"
@@ -145,7 +153,11 @@
       },
       {
         "label": "Upload File(s)",
-        "command": "ftp-remote-edit:upload-files"
+        "command": "ftp-remote-edit:upload-file"
+      },
+      {
+        "label": "Upload Directory",
+        "command": "ftp-remote-edit:upload-directory"
       },
       {
         "type": "separator"
