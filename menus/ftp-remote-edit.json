@@ -55,6 +55,10 @@
         "type": "separator"
       },
       {
+        "label": "Download",
+        "command": "ftp-remote-edit:download"
+      },
+      {
         "label": "Rename",
         "command": "ftp-remote-edit:rename"
       },
@@ -107,7 +111,7 @@
       },
       {
         "label": "Download",
-        "command": "ftp-remote-edit:download-file"
+        "command": "ftp-remote-edit:download"
       },
       {
         "label": "Rename",
