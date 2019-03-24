@@ -9,5 +9,6 @@
   "sftp": false,
   "privatekeyfile": "",
   "remote": "/",
-  "logon": "credentials"
+  "logon": "credentials",
+  "temp": false
 }
