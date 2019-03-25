@@ -1,10 +1,16 @@
+## 0.14.1
+- Enhancement: Extends the URI handler so that you can use HTML entities in the credentials (PR-265)
+- Enhancement: Add option to permanently store temp. server added by the URI handler in the config (PR-266)
+- Enhancement: Mark temp. server added by the URI handler with a different color
+- Fix error reported in "Uncaught TypeError: Cannot read property '0' of undefined" (issue-269)
+
 ## 0.14.0
 - Enhancement: Grouping servers (PR-252)
 - Enhancement: Fix styles for Atom material UI theme (issue-261)
 - Feature request: "Grouping servers." (issue-72)
 
 ## 0.13.6
-- Enhancement: Integrate ssh2 sftp client into plugin to fix dependency update errors without git installed.
+- Enhancement: Integrate ssh2 sftp client into plugin to fix dependency update errors without git installed
 - Fix error reported in "Problem updating from 0.13.4 to 0.13.5" (issue-260)
 
 ## 0.13.5
@@ -15,7 +21,7 @@
 
 ## 0.13.4
 - Enhancement: Restore keyboard shortcuts from 0.12.23
-- Enhancement: Add more debug messages for "get" function to find error for issue-257.
+- Enhancement: Add more debug messages for "get" function to find error for issue-257
 
 ## 0.13.3
 - Enhancement: "Unfavorable shortcut (cmd + space) for macOS" (issue-256)
@@ -58,7 +64,7 @@
 - Enhancement: More descriptive pane item names (PR-229)
 
 ## 0.12.19 - Release
-- Fix error reported in "Empty files on server after save". (issue-220)
+- Fix error reported in "Empty files on server after save" (issue-220)
 
 ## 0.12.18 - Release
 - Enhancement: "Corrected URI handler allowing special characters in login and password." (PR-215)

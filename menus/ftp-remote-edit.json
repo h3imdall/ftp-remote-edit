@@ -12,7 +12,19 @@
   }],
 
   "context-menu": {
-    ".ftp-remote-edit-list.full-menu .selected.server": [{
+    ".ftp-remote-edit-view": [
+      {
+        "label": "Toggle",
+        "command": "ftp-remote-edit:toggle"
+      },
+      {
+        "label": "Edit Servers",
+        "command": "ftp-remote-edit:edit-servers"
+      }
+    ],
+
+    ".ftp-remote-edit-list.full-menu .selected.server": [
+      {
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
       },
@@ -21,8 +33,15 @@
         "command": "ftp-remote-edit:new-directory"
       },
       {
-        "label": "Upload files",
-        "command": "ftp-remote-edit:upload-files"
+        "type": "separator"
+      },
+      {
+        "label": "Upload File(s)",
+        "command": "ftp-remote-edit:upload-file"
+      },
+      {
+        "label": "Upload Directory",
+        "command": "ftp-remote-edit:upload-directory"
       },
       {
         "type": "separator"
@@ -47,7 +66,18 @@
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected.directory": [{
+    ".ftp-remote-edit-list.full-menu .selected.server.temp": [
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Add Server To Config",
+        "command": "ftp-remote-edit:add-temp-to-config"
+      }
+    ],
+
+    ".ftp-remote-edit-list.full-menu .selected.directory": [
+      {
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
       },
@@ -56,8 +86,15 @@
         "command": "ftp-remote-edit:new-directory"
       },
       {
-        "label": "Upload files",
-        "command": "ftp-remote-edit:upload-files"
+        "type": "separator"
+      },
+      {
+        "label": "Upload File(s)",
+        "command": "ftp-remote-edit:upload-file"
+      },
+      {
+        "label": "Upload Directory",
+        "command": "ftp-remote-edit:upload-directory"
       },
       {
         "type": "separator"
@@ -102,13 +139,25 @@
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected.file": [{
+    ".ftp-remote-edit-list.full-menu .selected.file": [
+      {
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
       },
       {
         "label": "New Folder",
         "command": "ftp-remote-edit:new-directory"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Upload File(s)",
+        "command": "ftp-remote-edit:upload-file"
+      },
+      {
+        "label": "Upload Directory",
+        "command": "ftp-remote-edit:upload-directory"
       },
       {
         "type": "separator"
@@ -158,16 +207,6 @@
       },
       {
         "type": "separator"
-      }
-    ],
-
-    ".ftp-remote-edit-view": [{
-        "label": "Toggle",
-        "command": "ftp-remote-edit:toggle"
-      },
-      {
-        "label": "Edit Servers",
-        "command": "ftp-remote-edit:edit-servers"
       }
     ]
   }
