@@ -21,6 +21,10 @@
         "command": "ftp-remote-edit:new-directory"
       },
       {
+        "label": "Upload files",
+        "command": "ftp-remote-edit:upload-files"
+      },
+      {
         "type": "separator"
       },
       {
@@ -50,6 +54,10 @@
       {
         "label": "New Folder",
         "command": "ftp-remote-edit:new-directory"
+      },
+      {
+        "label": "Upload files",
+        "command": "ftp-remote-edit:upload-files"
       },
       {
         "type": "separator"
