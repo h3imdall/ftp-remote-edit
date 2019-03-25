@@ -4,10 +4,9 @@
     "submenu": [{
       "label": "Ftp-Remote",
       "submenu": [{
-          "label": "Toggle",
-          "command": "ftp-remote-edit:toggle"
-        }
-      ]
+        "label": "Toggle",
+        "command": "ftp-remote-edit:toggle"
+      }]
     }]
   }],
 
@@ -42,6 +41,10 @@
       {
         "label": "Upload Directory",
         "command": "ftp-remote-edit:upload-directory"
+      },
+      {
+        "label": "Download",
+        "command": "ftp-remote-edit:download"
       },
       {
         "type": "separator"
@@ -95,6 +98,10 @@
       {
         "label": "Upload Directory",
         "command": "ftp-remote-edit:upload-directory"
+      },
+      {
+        "label": "Download",
+        "command": "ftp-remote-edit:download"
       },
       {
         "type": "separator"
@@ -158,6 +165,10 @@
       {
         "label": "Upload Directory",
         "command": "ftp-remote-edit:upload-directory"
+      },
+      {
+        "label": "Download",
+        "command": "ftp-remote-edit:download"
       },
       {
         "type": "separator"
