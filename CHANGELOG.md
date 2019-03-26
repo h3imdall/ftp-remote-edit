@@ -1,3 +1,6 @@
+## 0.14.2
+- Fix error reported in "'toggle panel' without closing tree view" (issue-271)
+
 ## 0.14.1
 - Enhancement: Extends the URI handler so that you can use HTML entities in the credentials (PR-265)
 - Enhancement: Add option to permanently store temp. server added by the URI handler in the config (PR-266)
