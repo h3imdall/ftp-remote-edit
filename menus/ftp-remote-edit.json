@@ -4,16 +4,14 @@
     "submenu": [{
       "label": "Ftp-Remote",
       "submenu": [{
-          "label": "Toggle",
-          "command": "ftp-remote-edit:toggle"
-        }
-      ]
+        "label": "Toggle",
+        "command": "ftp-remote-edit:toggle"
+      }]
     }]
   }],
 
   "context-menu": {
-    ".ftp-remote-edit-view": [
-      {
+    ".ftp-remote-edit-view": [{
         "label": "Toggle",
         "command": "ftp-remote-edit:toggle"
       },
@@ -23,8 +21,7 @@
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected.server": [
-      {
+    ".ftp-remote-edit-list.full-menu .selected.server": [{
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
       },
@@ -55,18 +52,20 @@
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected.server.temp": [
-      {
+    ".ftp-remote-edit-list.full-menu .selected.server.temp": [{
         "type": "separator"
       },
       {
         "label": "Add Server To Config",
         "command": "ftp-remote-edit:add-temp-to-config"
+      },
+      {
+        "label": "Remove temporary server",
+        "command": "ftp-remote-edit:remove-temp"
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected.directory": [
-      {
+    ".ftp-remote-edit-list.full-menu .selected.directory": [{
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
       },
@@ -117,8 +116,7 @@
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected.file": [
-      {
+    ".ftp-remote-edit-list.full-menu .selected.file": [{
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
       },
