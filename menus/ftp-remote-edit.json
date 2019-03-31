@@ -22,7 +22,7 @@
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected.server": [
+    ".ftp-remote-edit-list.full-menu .selected": [
       {
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
@@ -45,7 +45,10 @@
       {
         "label": "Download",
         "command": "ftp-remote-edit:download"
-      },
+      }
+    ],
+
+    ".ftp-remote-edit-list.full-menu .selected.server": [
       {
         "type": "separator"
       },
@@ -79,30 +82,14 @@
       }
     ],
 
+    ".ftp-remote-edit-list.full-menu .selected.directory.expanded": [
+      {
+        "label": "Reload",
+        "command": "ftp-remote-edit:reload"
+      }
+    ],
+
     ".ftp-remote-edit-list.full-menu .selected.directory": [
-      {
-        "label": "New File",
-        "command": "ftp-remote-edit:new-file"
-      },
-      {
-        "label": "New Folder",
-        "command": "ftp-remote-edit:new-directory"
-      },
-      {
-        "type": "separator"
-      },
-      {
-        "label": "Upload File(s)",
-        "command": "ftp-remote-edit:upload-file"
-      },
-      {
-        "label": "Upload Directory",
-        "command": "ftp-remote-edit:upload-directory"
-      },
-      {
-        "label": "Download",
-        "command": "ftp-remote-edit:download"
-      },
       {
         "type": "separator"
       },
@@ -146,30 +133,14 @@
       }
     ],
 
+    ".ftp-remote-edit-list.full-menu .selected.file.open": [
+      {
+        "label": "Reload",
+        "command": "ftp-remote-edit:reload"
+      }
+    ],
+
     ".ftp-remote-edit-list.full-menu .selected.file": [
-      {
-        "label": "New File",
-        "command": "ftp-remote-edit:new-file"
-      },
-      {
-        "label": "New Folder",
-        "command": "ftp-remote-edit:new-directory"
-      },
-      {
-        "type": "separator"
-      },
-      {
-        "label": "Upload File(s)",
-        "command": "ftp-remote-edit:upload-file"
-      },
-      {
-        "label": "Upload Directory",
-        "command": "ftp-remote-edit:upload-directory"
-      },
-      {
-        "label": "Download",
-        "command": "ftp-remote-edit:download"
-      },
       {
         "type": "separator"
       },
@@ -220,5 +191,6 @@
         "type": "separator"
       }
     ]
+
   }
 }
