@@ -11,8 +11,7 @@
   }],
 
   "context-menu": {
-    ".ftp-remote-edit-view": [
-      {
+    ".ftp-remote-edit-view": [{
         "label": "Toggle",
         "command": "ftp-remote-edit:toggle"
       },
@@ -77,8 +76,15 @@
         "type": "separator"
       },
       {
-        "label": "Add Server To Config",
-        "command": "ftp-remote-edit:add-temp-to-config"
+        "label": "Add Temporary Server",
+        "command": "ftp-remote-edit:add-temp-server"
+      },
+      {
+        "label": "Remove Temporary Server",
+        "command": "ftp-remote-edit:remove-temp-server"
+      },
+      {
+        "type": "separator"
       }
     ],
 
@@ -191,6 +197,5 @@
         "type": "separator"
       }
     ]
-
   }
 }
