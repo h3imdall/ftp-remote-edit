@@ -1,3 +1,10 @@
+## 0.15.0
+- Feature request: "Allow to reload opened file from context menu" (issue-239)
+- Enhancement: Allow to reload opened directory from context menu
+- Enhancement: Allow to download file/directory from context menu (PR-267)
+- Enhancement: Allow to download file/directory from context menu (PR-268)
+- Enhancement: Add option to remove temp. server added by the URI handler from tree view (PR-274)
+
 ## 0.14.2
 - Fix error reported in "'toggle panel' without closing tree view" (issue-271)
 

@@ -4,16 +4,14 @@
     "submenu": [{
       "label": "Ftp-Remote",
       "submenu": [{
-          "label": "Toggle",
-          "command": "ftp-remote-edit:toggle"
-        }
-      ]
+        "label": "Toggle",
+        "command": "ftp-remote-edit:toggle"
+      }]
     }]
   }],
 
   "context-menu": {
-    ".ftp-remote-edit-view": [
-      {
+    ".ftp-remote-edit-view": [{
         "label": "Toggle",
         "command": "ftp-remote-edit:toggle"
       },
@@ -23,7 +21,7 @@
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected.server": [
+    ".ftp-remote-edit-list.full-menu .selected": [
       {
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
@@ -32,6 +30,24 @@
         "label": "New Folder",
         "command": "ftp-remote-edit:new-directory"
       },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Upload File(s)",
+        "command": "ftp-remote-edit:upload-file"
+      },
+      {
+        "label": "Upload Directory",
+        "command": "ftp-remote-edit:upload-directory"
+      },
+      {
+        "label": "Download",
+        "command": "ftp-remote-edit:download"
+      }
+    ],
+
+    ".ftp-remote-edit-list.full-menu .selected.server": [
       {
         "type": "separator"
       },
@@ -60,20 +76,26 @@
         "type": "separator"
       },
       {
-        "label": "Add Server To Config",
-        "command": "ftp-remote-edit:add-temp-to-config"
+        "label": "Add Temporary Server",
+        "command": "ftp-remote-edit:add-temp-server"
+      },
+      {
+        "label": "Remove Temporary Server",
+        "command": "ftp-remote-edit:remove-temp-server"
+      },
+      {
+        "type": "separator"
+      }
+    ],
+
+    ".ftp-remote-edit-list.full-menu .selected.directory.expanded": [
+      {
+        "label": "Reload",
+        "command": "ftp-remote-edit:reload"
       }
     ],
 
     ".ftp-remote-edit-list.full-menu .selected.directory": [
-      {
-        "label": "New File",
-        "command": "ftp-remote-edit:new-file"
-      },
-      {
-        "label": "New Folder",
-        "command": "ftp-remote-edit:new-directory"
-      },
       {
         "type": "separator"
       },
@@ -117,15 +139,14 @@
       }
     ],
 
+    ".ftp-remote-edit-list.full-menu .selected.file.open": [
+      {
+        "label": "Reload",
+        "command": "ftp-remote-edit:reload"
+      }
+    ],
+
     ".ftp-remote-edit-list.full-menu .selected.file": [
-      {
-        "label": "New File",
-        "command": "ftp-remote-edit:new-file"
-      },
-      {
-        "label": "New Folder",
-        "command": "ftp-remote-edit:new-directory"
-      },
       {
         "type": "separator"
       },
