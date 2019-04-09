@@ -21,7 +21,7 @@
       }
     ],
 
-    ".ftp-remote-edit-list.full-menu .selected": [
+    ".ftp-remote-edit-list.full-menu .selected.server, .ftp-remote-edit-list.full-menu .selected.directory, .ftp-remote-edit-list.full-menu .selected.file": [
       {
         "label": "New File",
         "command": "ftp-remote-edit:new-file"
