@@ -1,3 +1,6 @@
+## 0.15.1
+- Fix error reported in "Edit Servers` button and message always appear" (issue-280)
+
 ## 0.15.0
 - Feature request: "Allow to reload opened file from context menu" (issue-239)
 - Enhancement: Allow to reload opened directory from context menu
