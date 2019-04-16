@@ -1,3 +1,6 @@
+## 0.15.3
+- Feature request: "Add tab order/index on 'Edit Servers'" (issue-279)
+
 ## 0.15.2
 - Fix error reported in "Can't duplicate files since 0.15.0". (issue-282)
 - Fix error in context menu. Remove wrong actions for folders.
