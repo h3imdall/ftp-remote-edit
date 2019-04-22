@@ -93,6 +93,20 @@
         "type": "boolean",
         "default": true,
         "order": 9
+      },
+      "defaultDownloadPath": {
+        "title": "Default download path",
+        "description": "Default download path for folders and files, if empty - current system user Download folder.",
+        "type": "string",
+        "default": "",
+        "order": 10
+      },
+      "defaultUploadPath": {
+        "title": "Default upload path",
+        "description": "Default upload path for folders and files, if empty - current system user Desktop folder.",
+        "type": "string",
+        "default": "",
+        "order": 11
       }
     },
     "order": 5
@@ -106,8 +120,7 @@
         "description": "Specifies the key at which the search is to be used.",
         "type": "string",
         "default": "Filename",
-        "enum": [
-          {
+        "enum": [{
             "value": "Filename",
             "description": "Filename"
           },
