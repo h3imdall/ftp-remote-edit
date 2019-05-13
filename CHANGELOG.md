@@ -1,8 +1,10 @@
-## 0.15.3
+## 0.16.0
 - Feature request: "Add tab order/index on 'Edit Servers'" (issue-279)
 - Feature request: "Import from FileZilla" (issue-49)
-- Enhancement: "Import from FileZilla, Remote-ftp, PHP Storm config file" (PR-272)
-- Enhancement: "Small correction for temp servers - keep them after adding one to config" (PR-285)
+- Enhancement: Import from FileZilla, Remote-ftp, PHP Storm config file (PR-272)
+- Enhancement: Small correction for temp servers - keep them after adding one to config (PR-285)
+- Enhancement: Allow to select default path for download and upload (PR-286)
+- Enhancement: Add migration from outdated ftp-remote-edit-plus package
 
 ## 0.15.2
 - Fix error reported in "Can't duplicate files since 0.15.0". (issue-282)
@@ -47,8 +49,8 @@
 - Enhancement: Add more debug messages for "get" function to find error for issue-257
 
 ## 0.13.3
-- Enhancement: "Unfavorable shortcut (cmd + space) for macOS" (issue-256)
-- Enhancement: "Some correction of URI handler, add auto toggle on using URI handler." (PR-253)
+- Enhancement: Unfavorable shortcut (cmd + space) for macOS (issue-256)
+- Enhancement: Some correction of URI handler, add auto toggle on using URI handler. (PR-253)
 
 ## 0.13.2
 - Downgrade @icetee/ftp to 0.3.11 to prevent EPSV (unknown command) error on Pure-FTPd server
@@ -90,7 +92,7 @@
 - Fix error reported in "Empty files on server after save" (issue-220)
 
 ## 0.12.18 - Release
-- Enhancement: "Corrected URI handler allowing special characters in login and password." (PR-215)
+- Enhancement: Corrected URI handler allowing special characters in login and password. (PR-215)
 
 ## 0.12.17 - Release
 - Fix error reported in "Image view doesn't work". The transfer mode has been changed from utf8 to binary mode. (issue-58)

@@ -93,23 +93,30 @@
         "type": "boolean",
         "default": true,
         "order": 9
-      },
-      "defaultDownloadPath": {
-        "title": "Default download path",
-        "description": "Default download path for folders and files, if empty - current system user Download folder.",
-        "type": "string",
-        "default": "",
-        "order": 10
-      },
-      "defaultUploadPath": {
-        "title": "Default upload path",
-        "description": "Default upload path for folders and files, if empty - current system user Desktop folder.",
-        "type": "string",
-        "default": "",
-        "order": 11
       }
     },
     "order": 5
+  },
+  "transfer": {
+    "type": "object",
+    "title": "File Transfer",
+    "properties": {
+      "defaultDownloadPath": {
+        "title": "Default Download Path",
+        "description": "Default download path for folders and files. (downloads, desktop, project or path on filesystem)",
+        "type": "string",
+        "default": "downloads",
+        "order": 1
+      },
+      "defaultUploadPath": {
+        "title": "Default Upload Path",
+        "description": "Default upload path for folders and files. (downloads, desktop, project or path on filesystem)",
+        "type": "string",
+        "default": "desktop",
+        "order": 2
+      }
+    },
+    "order": 6
   },
   "finder": {
     "type": "object",
@@ -142,7 +149,7 @@
         "order": 2
       }
     },
-    "order": 6
+    "order": 7
   },
   "notifications": {
     "type": "object",
@@ -163,7 +170,7 @@
         "order": 2
       }
     },
-    "order": 7
+    "order": 8
   },
   "dev": {
     "type": "object",
@@ -177,6 +184,6 @@
         "order": 1
       }
     },
-    "order": 8
+    "order": 9
   }
 }

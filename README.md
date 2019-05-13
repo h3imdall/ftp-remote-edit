@@ -7,21 +7,13 @@ Simply connect and edit your remote files. The files will be automatically updat
 
 ## Whats new
 
-- Enhancement: Add upload of files (drag/drop from outside of atom)
-- Enhancement: Add upload of directories (drag/drop from outside of atom)
-- Feature request: "Add option to duplicate files." (issue-248)
-- Feature request: "Add keyboard shortcuts for context-menu actions" (issue-250)
-- Feature request: "Copy local folder/file into remote server" (issue-138)
-- Feature request: Grouping servers (issue-72)
-- Enhancement: Fix styles for Atom material UI theme (issue-261)
-- Enhancement: Extends the URI handler so that you can use HTML entities in the credentials. (PR-265)
-- Enhancement: Add option to permanently store the temp. server added by the URI handler in the config. (PR-266)
-- Enhancement: Mark temp. server added by the URI handler with a different color
-- Feature request: "Allow to reload opened file from context menu" (issue-239)
 - Enhancement: Allow to reload opened directory from context menu
 - Enhancement: Allow to download file/directory from context menu (PR-267)
 - Enhancement: Allow to download file/directory from context menu (PR-268)
 - Enhancement: Add option to remove temp. server added by the URI handler from tree view (PR-274)
+- Feature request: Add tab order/index on 'Edit Servers' (issue-279)
+- Enhancement: Import from FileZilla, Remote-ftp, PHP Storm config file (PR-272)
+- Enhancement: Allow to select default path for download and upload (PR-286)
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
@@ -58,6 +50,8 @@ Add temporary server for ftp/sftp by using uri. It is possible to use it with/wi
 - `Tree View` - `Sort Folders Before Files` - When listing directory items, list subdirectories before listing files.
 - `Tree View` - `Sort Servers By Name` - When listing servers items, list servers by name rather than by host.
 - `Tree View` - `Auto Reveal Active File` - Auto reveal the current active file on the tree view.
+- `File Transfer` - `Default Download Path` - Default download path for folders and files.
+- `File Transfer` - `Default Upload Path` - "Default upload path for folders and files.
 - `Tree View Finder` - `Key For Search` - Specifies the key at which the search is to be used.
 - `Tree View Finder` - `Ignored Names` - Files and directories matching these patterns and the `Ignored Names` core config setting will be ignored during indexing.
 - `Notification` - `Successful Upload` - Show notification on successful upload
@@ -79,6 +73,6 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - [@miles-collier](https://github.com/miles-collier) [PR-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Keybinding for toggling
 - [@dustinparker](https://github.com/dustinparker) [PR-112](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
 - [@Me1onRind](https://github.com/Me1onRind) [PR-124](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
-- [@wacki4](https://github.com/wacki4) [PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169), [PR-245](https://github.com/h3imdall/ftp-remote-edit/pull/245), [PR-265](https://github.com/h3imdall/ftp-remote-edit/pull/265), [PR-266](https://github.com/h3imdall/ftp-remote-edit/pull/266) URI handler, [PR-252](https://github.com/h3imdall/ftp-remote-edit/pull/252) Grouping servers, [PR-267](https://github.com/h3imdall/ftp-remote-edit/pull/267), [PR-268](https://github.com/h3imdall/ftp-remote-edit/pull/268) Allow to upload/download file/directory from context menu
+- [@wacki4](https://github.com/wacki4) [PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169), [PR-245](https://github.com/h3imdall/ftp-remote-edit/pull/245), [PR-265](https://github.com/h3imdall/ftp-remote-edit/pull/265), [PR-266](https://github.com/h3imdall/ftp-remote-edit/pull/266) URI handler, [PR-252](https://github.com/h3imdall/ftp-remote-edit/pull/252) Grouping servers, [PR-267](https://github.com/h3imdall/ftp-remote-edit/pull/267), [PR-268](https://github.com/h3imdall/ftp-remote-edit/pull/268) Allow to upload/download file/directory from context menu, [PR-272](https://github.com/h3imdall/ftp-remote-edit/pull/272) Import from FileZilla, Remote-ftp, PHP Storm config file, [PR-286](https://github.com/h3imdall/ftp-remote-edit/pull/286) Allow to select default path for download and upload
 - [@FabrizioCaldarelli ](https://github.com/FabrizioCaldarelli) [PR-178](https://github.com/h3imdall/ftp-remote-edit/pull/178),  [PR-174](https://github.com/h3imdall/ftp-remote-edit/pull/174) Help fix some errors
 - [@pfitzseb](https://github.com/pfitzseb) [PR-228](https://github.com/h3imdall/ftp-remote-edit/pull/228), [PR-229](https://github.com/h3imdall/ftp-remote-edit/pull/229) Add providers for better [Juno](http://junolab.org/) integration, [PR-241](https://github.com/h3imdall/ftp-remote-edit/pull/241) Add suppport for agent based authentication
