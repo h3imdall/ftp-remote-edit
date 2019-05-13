@@ -26,7 +26,8 @@
     "p-queue": "^3.0.0",
     "progress-stream": "^2.0.0",
     "short-hash": "^1.0.0",
-    "ssh2": "^0.8.2"
+    "ssh2": "^0.8.2",
+    "xml-js": "^1.6.11"
   },
   "consumedServices": {
     "file-icons.element-icons": {
