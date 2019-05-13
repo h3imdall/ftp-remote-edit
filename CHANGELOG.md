@@ -2,6 +2,7 @@
 - Feature request: "Add tab order/index on 'Edit Servers'" (issue-279)
 - Feature request: "Import from FileZilla" (issue-49)
 - Enhancement: "Import from FileZilla, Remote-ftp, PHP Storm config file" (PR-272)
+- Enhancement: "Small correction for temp servers - keep them after adding one to config" (PR-285)
 
 ## 0.15.2
 - Fix error reported in "Can't duplicate files since 0.15.0". (issue-282)
