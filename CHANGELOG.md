@@ -1,3 +1,7 @@
+## 0.16.1
+- Fix error reported in "Import .ftpconfig - Unknown file format". (issue-293)
+- Fix error reported in "Import from filezilla - Remote dir doesn't work right". (issue-292)
+
 ## 0.16.0
 - Feature request: "Add tab order/index on 'Edit Servers'" (issue-279)
 - Feature request: "Import from FileZilla" (issue-49)
