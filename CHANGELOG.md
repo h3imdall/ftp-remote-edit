@@ -1,6 +1,9 @@
+## 0.16.2
+- Enhancement: Add debug log for sftp connections
+
 ## 0.16.1
-- Fix error reported in "Import .ftpconfig - Unknown file format". (issue-293)
-- Fix error reported in "Import from filezilla - Remote dir doesn't work right". (issue-292)
+- Fix error reported in "Import .ftpconfig - Unknown file format" (issue-293)
+- Fix error reported in "Import from filezilla - Remote dir doesn't work right" (issue-292)
 
 ## 0.16.0
 - Feature request: "Add tab order/index on 'Edit Servers'" (issue-279)
@@ -11,8 +14,8 @@
 - Enhancement: Add migration from outdated ftp-remote-edit-plus package
 
 ## 0.15.2
-- Fix error reported in "Can't duplicate files since 0.15.0". (issue-282)
-- Fix error in context menu. Remove wrong actions for folders.
+- Fix error reported in "Can't duplicate files since 0.15.0" (issue-282)
+- Fix error in context menu. Remove wrong actions for folders
 
 ## 0.15.1
 - Fix error reported in "Edit Servers` button and message always appear" (issue-280)
@@ -54,7 +57,7 @@
 
 ## 0.13.3
 - Enhancement: Unfavorable shortcut (cmd + space) for macOS (issue-256)
-- Enhancement: Some correction of URI handler, add auto toggle on using URI handler. (PR-253)
+- Enhancement: Some correction of URI handler, add auto toggle on using URI handler (PR-253)
 
 ## 0.13.2
 - Downgrade @icetee/ftp to 0.3.11 to prevent EPSV (unknown command) error on Pure-FTPd server
