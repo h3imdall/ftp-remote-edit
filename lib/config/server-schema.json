@@ -3,6 +3,7 @@
   "host": "",
   "port": "",
   "user": "",
+  "secure": false,
   "parent": null,
   "useAgent": false,
   "password": "",

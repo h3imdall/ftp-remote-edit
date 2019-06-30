@@ -1,3 +1,7 @@
+
+## 0.16.3
+- Feature request: "FTP with TLS/SSL encryption" (issue-45)
+
 ## 0.16.2
 - Enhancement: Add debug log for sftp connections
 

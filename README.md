@@ -14,6 +14,7 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Feature request: Add tab order/index on 'Edit Servers' (issue-279)
 - Enhancement: Import from FileZilla, Remote-ftp, PHP Storm config file (PR-272)
 - Enhancement: Allow to select default path for download and upload (PR-286)
+- Feature request: FTP with TLS/SSL encryption (issue-45)
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
