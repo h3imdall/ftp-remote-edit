@@ -2,7 +2,7 @@
   "menu": [{
     "label": "Packages",
     "submenu": [{
-      "label": "Ftp-Remote",
+      "label": "Ftp-Remote-Edit",
       "submenu": [{
         "label": "Toggle",
         "command": "ftp-remote-edit:toggle"
