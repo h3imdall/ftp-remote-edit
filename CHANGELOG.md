@@ -1,3 +1,6 @@
+## 0.16.4
+- Fix error reported in "Last Update Crashes Atom" (issue-310)
+- Enhancement: Fix error when uploading an opened file.
 
 ## 0.16.3
 - Feature request: "FTP with TLS/SSL encryption" (issue-45)
