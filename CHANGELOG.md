@@ -1,3 +1,6 @@
+## 0.17.1
+- Enhancement: Improve loading time of package
+
 ## 0.17.0
 - Enhancement: Replace ftp library "@icetee/ftp" with "basic-ftp"
 - Fix error reported in "Problem opening a file / timeout per FTP with Atom 1.39.0" (issue-306)
