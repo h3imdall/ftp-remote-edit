@@ -12,7 +12,7 @@
   "repository": "https://github.com/h3imdall/ftp-remote-edit.git",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.17.0 <2.0.0"
   },
   "dependencies": {
     "atom-select-list": "^0.3.0",

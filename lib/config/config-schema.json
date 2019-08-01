@@ -38,61 +38,40 @@
         "default": false,
         "order": 1
       },
-      "showInDock": {
-        "title": "Open In Atom Dock",
-        "description": "Open the view as tab in atom dock instead of panel. Only available from Atom 1.17.0.",
-        "type": "boolean",
-        "default": true,
-        "order": 2
-      },
-      "showOnRightSide": {
-        "title": "Show On Right Side",
-        "description": "Show the view on the right side of the editor instead of the left.",
-        "type": "boolean",
-        "default": true,
-        "order": 3
-      },
       "allowPendingPaneItems": {
         "title": "Allow Pending Pane Items",
         "description": "Allow items to be previewed without adding them to a pane permanently, such as when single clicking files in the tree view.",
         "type": "boolean",
         "default": false,
-        "order": 4
+        "order": 2
       },
       "hideIgnoredNames": {
         "title": "Hide Ignored Files",
         "description": "Don't show items matched by the `Ignored Names` core config setting.",
         "type": "boolean",
         "default": false,
-        "order": 5
-      },
-      "showHiddenFiles": {
-        "title": "Show Hidden Files",
-        "description": "Force FTP Server to show hidden files (e.g. htaccess).",
-        "type": "boolean",
-        "default": false,
-        "order": 6
+        "order": 3
       },
       "sortFoldersBeforeFiles": {
         "title": "Sort Folders Before Files",
         "description": "When listing directory items, list subdirectories before listing files.",
         "type": "boolean",
         "default": true,
-        "order": 7
+        "order": 4
       },
       "sortServerProfilesByName": {
         "title": "Sort Servers By Name",
         "description": "When listing servers items, list servers by name rather than by host.",
         "type": "boolean",
         "default": true,
-        "order": 8
+        "order": 5
       },
       "autoRevealActiveFile": {
         "title": "Auto Reveal Active File",
         "description": "Auto reveal the current active file on the tree view.",
         "type": "boolean",
         "default": true,
-        "order": 9
+        "order": 6
       }
     },
     "order": 5

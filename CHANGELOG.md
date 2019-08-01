@@ -1,5 +1,7 @@
 ## 0.17.1
 - Enhancement: Improve loading time of package
+- Enhancement: Remove obsolete entries from the configuration
+- Fix error reported in "550 The system cannot find the file specified." (issue-313)
 
 ## 0.17.0
 - Enhancement: Replace ftp library "@icetee/ftp" with "basic-ftp"
