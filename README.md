@@ -59,6 +59,7 @@ Add temporary server for ftp/sftp by using uri. It is possible to use it with/wi
 - `Notification` - `Successful Upload` - Show notification on successful upload
 - `Notification` - `Failed Upload` - Open protocol view in case of failed upload.
 - `Development` - `Debug Mode` - Output debug messages to the console.
+- `Development` - `Disable Lazy Loading` - Disable lazy loading of this package.
 
 ## I'd like to support this project
 

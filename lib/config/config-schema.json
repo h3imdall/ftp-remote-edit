@@ -161,6 +161,13 @@
         "type": "boolean",
         "default": false,
         "order": 1
+      },
+      "disableLazyLoading": {
+        "title": "Disable Lazy Loading",
+        "description": "Disable lazy loading of this package.",
+        "type": "boolean",
+        "default": false,
+        "order": 2
       }
     },
     "order": 9
