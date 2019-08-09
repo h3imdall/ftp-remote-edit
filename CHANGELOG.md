@@ -1,3 +1,6 @@
+## 0.17.2
+- Fix error reported in "Uncaught TypeError: FindDialog is not a constructor" (issue-319)
+
 ## 0.17.1
 - Enhancement: Improve loading time of package
 - Enhancement: Remove obsolete entries from the configuration
