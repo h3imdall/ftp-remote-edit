@@ -87,12 +87,26 @@
         "default": "downloads",
         "order": 1
       },
+      "rememberLastDownloadPath": {
+        "title": "Remeber last download path",
+        "description": "Keep last used download path to choose.",
+        "type": "boolean",
+        "default": true,
+        "order": 2
+      },
       "defaultUploadPath": {
         "title": "Default Upload Path",
         "description": "Default upload path for folders and files. (downloads, desktop, project or path on filesystem)",
         "type": "string",
         "default": "desktop",
-        "order": 2
+        "order": 3
+      },
+      "rememberLastUploadPath": {
+        "title": "Remeber last upload path",
+        "description": "Keep last used upload path to choose.",
+        "type": "boolean",
+        "default": false,
+        "order": 4
       }
     },
     "order": 6
