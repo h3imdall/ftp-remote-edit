@@ -1,3 +1,6 @@
+## 0.17.3
+- Fix error reported in "Uncaught TypeError: Cannot read property 'hasPassword' of null" (issue-323)
+
 ## 0.17.2
 - Fix error reported in "Uncaught TypeError: FindDialog is not a constructor" (issue-319)
 
