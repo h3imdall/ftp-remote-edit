@@ -1,3 +1,7 @@
+## 0.17.4
+- Fix error reported in "Unable to load server files ever since updating to 0.17.2" (issue-328)
+- Update dependency for "basic-ftp" to 3.8.4
+
 ## 0.17.3
 - Fix error reported in "Uncaught TypeError: Cannot read property 'hasPassword' of null" (issue-323)
 
