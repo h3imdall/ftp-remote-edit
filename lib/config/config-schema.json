@@ -1,31 +1,47 @@
 {
+  "encryption": {
+    "title": "Mode of connection encryption",
+    "description": "Specifies the way in which server list is saved",
+    "type": "string",
+    "default": "encrypted",
+    "enum": [{
+        "value": "encrypted",
+        "description": "Encrypted"
+      },
+      {
+        "value": "plain",
+        "description": "Not encrypted"
+      }
+    ],
+    "order": 1
+  },
   "config": {
     "title": "Encrypted Connection",
     "description": "This are the encrypted connection information about your servers. Don't edit this!",
     "type": "string",
     "default": "",
-    "order": 1
+    "order": 2
   },
   "password": {
     "title": "Encrypted Password",
     "description": "This is the encrypted password. Don't edit this!",
     "type": "string",
     "default": "",
-    "order": 2
+    "order": 3
   },
   "allowedConsumers": {
     "title": "Whitelisted Consumers (encrypted)",
     "description": "You can clear this to disallow access to your server configuration for all third-party packages.",
     "type": "string",
     "default": "",
-    "order": 3
+    "order": 4
   },
   "disallowedConsumers": {
     "title": "Blacklisted Consumers (encrypted)",
     "description": "You can clear this to allow all third-party packages to request access to your server configuration.",
     "type": "string",
     "default": "",
-    "order": 4
+    "order": 5
   },
   "tree": {
     "type": "object",
