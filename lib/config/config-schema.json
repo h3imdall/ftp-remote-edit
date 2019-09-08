@@ -38,40 +38,47 @@
         "default": false,
         "order": 1
       },
+      "restoreState": {
+        "title": "Restore State",
+        "description": "Restoring the previous state after closing and reopening atom. (Beta)",
+        "type": "boolean",
+        "default": true,
+        "order": 2
+      },
       "allowPendingPaneItems": {
         "title": "Allow Pending Pane Items",
         "description": "Allow items to be previewed without adding them to a pane permanently, such as when single clicking files in the tree view.",
         "type": "boolean",
         "default": false,
-        "order": 2
+        "order": 3
       },
       "hideIgnoredNames": {
         "title": "Hide Ignored Files",
         "description": "Don't show items matched by the `Ignored Names` core config setting.",
         "type": "boolean",
         "default": false,
-        "order": 3
+        "order": 4
       },
       "sortFoldersBeforeFiles": {
         "title": "Sort Folders Before Files",
         "description": "When listing directory items, list subdirectories before listing files.",
         "type": "boolean",
         "default": true,
-        "order": 4
+        "order": 5
       },
       "sortServerProfilesByName": {
         "title": "Sort Servers By Name",
         "description": "When listing servers items, list servers by name rather than by host.",
         "type": "boolean",
         "default": true,
-        "order": 5
+        "order": 6
       },
       "autoRevealActiveFile": {
         "title": "Auto Reveal Active File",
         "description": "Auto reveal the current active file on the tree view.",
         "type": "boolean",
         "default": true,
-        "order": 6
+        "order": 7
       }
     },
     "order": 5

@@ -16,6 +16,9 @@ Simply connect and edit your remote files. The files will be automatically updat
 - Enhancement: Allow to select default path for download and upload (PR-286)
 - Feature request: FTP with TLS/SSL encryption (issue-45)
 - Enhancement: Improve loading time of package (issue-301)
+- Enhancement: Allows to remember last selected path for download/upload
+- Enhancement: Extends the logon type of the server configuration with "Prompt for Password"
+- Enhancement: Add option to restore previous state after closing and reopening atom
 [more...](https://github.com/h3imdall/ftp-remote-edit/blob/master/CHANGELOG.md)
 
 ## Getting started
@@ -46,6 +49,7 @@ Add temporary server for ftp/sftp by using uri. It is possible to use it with/wi
 ## Package preferences
 
 - `Tree View` - `Open On Startup` - Open the view automatically when atom starts.
+- `Tree View` - `Restore State` - Restoring the previous state after closing and reopening atom. (Beta)
 - `Tree View` - `Allow Pending Pane Items` - Allow items to be previewed without adding them to a pane permanently.
 - `Tree View` - `Hide Ignored Files` - Don't show items matched by the `Ignored Names` core config setting.
 - `Tree View` - `Sort Folders Before Files` - When listing directory items, list subdirectories before listing files.
@@ -75,6 +79,6 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - [@miles-collier](https://github.com/miles-collier) [PR-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Keybinding for toggling
 - [@dustinparker](https://github.com/dustinparker) [PR-112](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
 - [@Me1onRind](https://github.com/Me1onRind) [PR-124](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
-- [@wacki4](https://github.com/wacki4) [PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169), [PR-245](https://github.com/h3imdall/ftp-remote-edit/pull/245), [PR-265](https://github.com/h3imdall/ftp-remote-edit/pull/265), [PR-266](https://github.com/h3imdall/ftp-remote-edit/pull/266) URI handler, [PR-252](https://github.com/h3imdall/ftp-remote-edit/pull/252) Grouping servers, [PR-267](https://github.com/h3imdall/ftp-remote-edit/pull/267), [PR-268](https://github.com/h3imdall/ftp-remote-edit/pull/268) Allow to upload/download file/directory from context menu, [PR-272](https://github.com/h3imdall/ftp-remote-edit/pull/272) Import from FileZilla, Remote-ftp, PHP Storm config file, [PR-286](https://github.com/h3imdall/ftp-remote-edit/pull/286) Allow to select default path for download and upload
+- [@wacki4](https://github.com/wacki4) [PR-169](https://github.com/h3imdall/ftp-remote-edit/pull/169), [PR-245](https://github.com/h3imdall/ftp-remote-edit/pull/245), [PR-265](https://github.com/h3imdall/ftp-remote-edit/pull/265), [PR-266](https://github.com/h3imdall/ftp-remote-edit/pull/266) URI handler, [PR-252](https://github.com/h3imdall/ftp-remote-edit/pull/252) Grouping servers, [PR-267](https://github.com/h3imdall/ftp-remote-edit/pull/267), [PR-268](https://github.com/h3imdall/ftp-remote-edit/pull/268) Allow to upload/download file/directory from context menu, [PR-272](https://github.com/h3imdall/ftp-remote-edit/pull/272) Import from FileZilla, Remote-ftp, PHP Storm config file, [PR-286](https://github.com/h3imdall/ftp-remote-edit/pull/286), [PR-302](https://github.com/h3imdall/ftp-remote-edit/pull/320), [PR-320](https://github.com/h3imdall/ftp-remote-edit/pull/320) Allow to select default path for download and upload, [PR-321](https://github.com/h3imdall/ftp-remote-edit/pull/321) Extends the logon type of the server configuration with "Prompt for Password"
 - [@FabrizioCaldarelli ](https://github.com/FabrizioCaldarelli) [PR-178](https://github.com/h3imdall/ftp-remote-edit/pull/178),  [PR-174](https://github.com/h3imdall/ftp-remote-edit/pull/174) Help fix some errors
 - [@pfitzseb](https://github.com/pfitzseb) [PR-228](https://github.com/h3imdall/ftp-remote-edit/pull/228), [PR-229](https://github.com/h3imdall/ftp-remote-edit/pull/229) Add providers for better [Juno](http://junolab.org/) integration, [PR-241](https://github.com/h3imdall/ftp-remote-edit/pull/241) Add suppport for agent based authentication
