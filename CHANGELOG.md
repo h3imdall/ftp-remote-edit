@@ -3,6 +3,7 @@
 - Enhancement: Extends the logon type of the server configuration with "Prompt for Password"
 - Enhancement: Add option to restore previous state after closing and reopening atom
 - Feature request: "Add option to display dialog to confirm drag & drop action" (issue-334)
+- Fix error reported in "Spinning icon and foldername" (issue-347)
 
 ## 0.17.4
 - Fix error reported in "Unable to load server files ever since updating to 0.17.2" (issue-328)
