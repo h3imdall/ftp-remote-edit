@@ -39,10 +39,10 @@
         "order": 1
       },
       "restoreState": {
-        "title": "Restore State",
-        "description": "Restoring the previous state after closing and reopening atom. (Beta)",
+        "title": "Restore State (Beta)",
+        "description": "Restoring the previous state after closing and reopening atom.",
         "type": "boolean",
-        "default": true,
+        "default": false,
         "order": 2
       },
       "allowPendingPaneItems": {
@@ -79,6 +79,13 @@
         "type": "boolean",
         "default": true,
         "order": 7
+      },
+      "dragAndDropConfirmation": {
+        "title": "Drag & Drop Confirmation",
+        "description": "Show dialog to confirm drag & drop action.",
+        "type": "boolean",
+        "default": false,
+        "order": 8
       }
     },
     "order": 5
