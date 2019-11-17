@@ -2,6 +2,7 @@
 - Enhancement: Allows to remember last selected path for download/upload
 - Enhancement: Extends the logon type of the server configuration with "Prompt for Password"
 - Enhancement: Add option to restore previous state after closing and reopening atom
+- Enhancement: Allow to reconnect opened server from context menu (issue-290)
 - Feature request: "Add option to display dialog to confirm drag & drop action" (issue-334)
 - Fix error reported in "Spinning icon and foldername" (issue-347)
 

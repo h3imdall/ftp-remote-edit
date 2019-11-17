@@ -47,6 +47,27 @@
       }
     ],
 
+    ".ftp-remote-edit-list.full-menu .selected.server.expanded": [
+      {
+        "label": "Reconnect",
+        "command": "ftp-remote-edit:reconnect"
+      }
+    ],
+
+    ".ftp-remote-edit-list.full-menu .selected.directory.expanded": [
+      {
+        "label": "Reload",
+        "command": "ftp-remote-edit:reload"
+      }
+    ],
+
+    ".ftp-remote-edit-list.full-menu .selected.file.open": [
+      {
+        "label": "Reload",
+        "command": "ftp-remote-edit:reload"
+      }
+    ],
+
     ".ftp-remote-edit-list.full-menu .selected.server": [
       {
         "type": "separator"
@@ -85,13 +106,6 @@
       },
       {
         "type": "separator"
-      }
-    ],
-
-    ".ftp-remote-edit-list.full-menu .selected.directory.expanded": [
-      {
-        "label": "Reload",
-        "command": "ftp-remote-edit:reload"
       }
     ],
 
@@ -136,13 +150,6 @@
       },
       {
         "type": "separator"
-      }
-    ],
-
-    ".ftp-remote-edit-list.full-menu .selected.file.open": [
-      {
-        "label": "Reload",
-        "command": "ftp-remote-edit:reload"
       }
     ],
 
