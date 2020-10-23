@@ -1,3 +1,7 @@
+# 0.18.1
+- Fix error reported in "Files not getting uploaded" (issue-394)
+- Fix error reported in "Files can't be deleted" (issue-387)
+
 ## 0.18.0
 - Enhancement: Allows to remember last selected path for download/upload
 - Enhancement: Extends the logon type of the server configuration with "Prompt for Password"
