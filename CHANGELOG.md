@@ -1,3 +1,5 @@
+# 0.18.2
+- Fix error reported in "Downloading code issue" (issue-414)
 # 0.18.1
 - Fix error reported in "Files not getting uploaded" (issue-394)
 - Fix error reported in "Files can't be deleted" (issue-387)
