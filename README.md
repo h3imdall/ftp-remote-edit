@@ -7,6 +7,7 @@ Simply connect and edit your remote files. The files will be automatically updat
 
 ## Whats new
 
+- Enhancement: After Atom is no longer developed, this plugin can now be used with [Pulsar](https://pulsar-edit.dev/)
 - Enhancement: Improve loading time of package (issue-301)
 - Enhancement: Allows to remember last selected path for download/upload
 - Enhancement: Extends the logon type of the server configuration with "Prompt for Password"
@@ -68,11 +69,12 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 - **Contribute!** I'll be happy to accept pull requests!
 - **Bug hunting!** [Report](https://github.com/h3imdall/ftp-remote-edit/issues) them!
 - **Feature request?** [Please let me know](https://github.com/h3imdall/ftp-remote-edit/issues) by filling an issue!
-- **Star this project** on [Atom](https://atom.io/packages/ftp-remote-edit), [Github](https://github.com/h3imdall/ftp-remote-edit)
+- **Star this project** on [Pulsar](https://web.pulsar-edit.dev/packages/ftp-remote-edit), [Github](https://github.com/h3imdall/ftp-remote-edit)
 - **Donate for this project** - [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KAMKHBBJH7KB2)
 
 ## Special Thanks
 
+- [@xingkongwuhen](https://github.com/xingkongwuhen) [PR-447](https://github.com/h3imdall/ftp-remote-edit/pull/447) Eliminate errors and warnings during the use of Puslar
 - [@miles-collier](https://github.com/miles-collier) [PR-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Keybinding for toggling
 - [@dustinparker](https://github.com/dustinparker) [PR-112](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
 - [@Me1onRind](https://github.com/Me1onRind) [PR-124](https://github.com/h3imdall/ftp-remote-edit/pull/124) Fuzzy finder for remote files
