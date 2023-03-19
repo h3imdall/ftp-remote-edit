@@ -1,3 +1,6 @@
+## 0.20.0
+- Enhancement: First release on pulsar package registry
+
 ## 0.19.0
 - Fix error reported in "configArray is not defined when using Pulsar" (issue-446)
 - Fix error reported in "Try to open ftp-remote-edit in Pulsar" (issue-449)
