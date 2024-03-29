@@ -1,3 +1,7 @@
+## 0.21.0
+- Enhancement: Fix SSH2 bug (PR-285)
+- fix error reported in "All configured authentication methods failed with ssh key" (issue-431)
+
 ## 0.20.0
 - Enhancement: First release on pulsar package registry
 

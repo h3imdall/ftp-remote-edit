@@ -74,6 +74,7 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 
 ## Special Thanks
 
+- [@markeclaudio](https://github.com/markeclaudio) [PR-459](https://github.com/h3imdall/ftp-remote-edit/pull/459) Fix SSH2 bug
 - [@xingkongwuhen](https://github.com/xingkongwuhen) [PR-447](https://github.com/h3imdall/ftp-remote-edit/pull/447) Eliminate errors and warnings during the use of Puslar
 - [@miles-collier](https://github.com/miles-collier) [PR-38](https://github.com/h3imdall/ftp-remote-edit/pull/38) Keybinding for toggling
 - [@dustinparker](https://github.com/dustinparker) [PR-112](https://github.com/h3imdall/ftp-remote-edit/pull/112) Sort servers by name
